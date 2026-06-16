@@ -1,0 +1,244 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: INTEGRASOLID
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e10]:
+          - link "Services" [ref=e11] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e12]:
+          - link "Training" [ref=e13] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e14]:
+          - link "About" [ref=e15] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e16]:
+          - link "Blog" [ref=e17] [cursor=pointer]:
+            - /url: /blog.html
+      - link "Get Started" [ref=e18] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: AI Transformation Partner
+        - heading "Integrate AI. Automate Work. Accelerate Growth." [level=1] [ref=e24]:
+          - text: Integrate AI.
+          - text: Automate Work.
+          - text: Accelerate Growth.
+        - paragraph [ref=e25]: We guide businesses from manual, repetitive operations to intelligent, automated workflows — at every stage of the journey.
+        - generic [ref=e26]:
+          - link "Explore Our Services →" [ref=e27] [cursor=pointer]:
+            - /url: /services.html
+          - link "Book a Free Call" [ref=e28] [cursor=pointer]:
+            - /url: /contact.html
+        - paragraph [ref=e29]:
+          - text: ✦
+          - generic [ref=e30]: No technical jargon. Just a real conversation about your business.
+      - generic [ref=e32]:
+        - generic [ref=e38]: You →
+        - generic [ref=e41]:
+          - generic [ref=e42]: automation.yourcompany.com · live
+          - generic [ref=e44]:
+            - text: Email Automation
+            - heading "Follow-up Engine" [level=4] [ref=e45]
+            - paragraph [ref=e46]: 47 follow-ups sent today. CRM synced automatically.
+            - generic [ref=e47]: View Dashboard
+            - generic [ref=e48]: 100% Automated
+    - generic [ref=e50]:
+      - generic [ref=e51]: Business Owners
+      - generic [ref=e52]: ·
+      - generic [ref=e53]: Operations Teams
+      - generic [ref=e54]: ·
+      - generic [ref=e55]: Founders
+      - generic [ref=e56]: ·
+      - generic [ref=e57]: Marketers
+      - generic [ref=e58]: ·
+      - generic [ref=e59]: Anyone drowning in manual work
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: ◆ Upcoming · June 20, 2026
+        - strong [ref=e64]: Claude Code Vibe Coding for Beginners
+        - generic [ref=e65]: From a website to your first web app — no coding required
+      - link "Details & register — RM 149 →" [ref=e67] [cursor=pointer]:
+        - /url: /training/claude-code-vibe-coding.html
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: The shift we enable
+        - blockquote [ref=e72]: You don't need to learn AI. You need AI to learn your business.
+        - paragraph [ref=e73]: You stay focused on strategy, customers, and growth. We make sure AI handles everything else.
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: You
+          - generic [ref=e78]:
+            - strong [ref=e79]: Describe the problem
+            - text: "\"We spend 3 hours every day on manual follow-ups and CRM updates.\""
+        - generic [ref=e80]:
+          - generic [ref=e81]: Integra Solid
+          - generic [ref=e82]:
+            - strong [ref=e83]: Design the solution
+            - text: We map your workflow, choose the right AI tools, and build the automation.
+        - generic [ref=e84]:
+          - generic [ref=e85]: You
+          - generic [ref=e86]:
+            - strong [ref=e87]: Run your business
+            - text: The automations run in the background. You get hours back, every single day.
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e91]: What we do
+        - heading "Three services. One transformation." [level=2] [ref=e92]
+        - paragraph [ref=e93]: Every business is different. We meet you where you are and take you where you need to go.
+      - generic [ref=e94]:
+        - generic [ref=e95]: "01"
+        - generic [ref=e96]:
+          - generic [ref=e97]: AI Integration
+          - heading "Connect AI to your existing tools" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Your business already runs on a stack of tools — CRMs, communication platforms, data pipelines. We connect AI into those tools so everything works smarter, without disrupting what's already working.
+          - generic [ref=e100]: "Result: AI that fits your workflow, not the other way around"
+        - generic [ref=e101]:
+          - generic [ref=e102]: A typical brief
+          - text: "\"We use HubSpot and Slack. Can AI help us auto-log calls, summarise meetings, and alert the right people?\""
+      - generic [ref=e103]:
+        - generic [ref=e104]: "02"
+        - generic [ref=e105]:
+          - generic [ref=e106]: AI Automation
+          - heading "Automate the work that drains your team" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Repetitive tasks are a silent tax on your business. Every hour spent on manual data entry, routine emails, and copy-paste workflows is an hour not spent on growth. We find those bottlenecks and eliminate them.
+          - generic [ref=e109]: "Result: Hours reclaimed every day, automatically"
+        - generic [ref=e110]:
+          - generic [ref=e111]: A typical brief
+          - text: "\"Our team spends half the day on follow-ups and reporting. We want that to just happen without anyone touching it.\""
+      - generic [ref=e112]:
+        - generic [ref=e113]: "03"
+        - generic [ref=e114]:
+          - generic [ref=e115]: AI Training
+          - heading "Upskill your team to work with AI" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Tools alone don't transform businesses — people do. The most powerful AI investments fail when teams don't know how to use them. We train your team to use AI confidently, in the context of their actual jobs.
+          - generic [ref=e118]: "Result: A team that multiplies its output with AI"
+        - generic [ref=e119]:
+          - generic [ref=e120]: A typical brief
+          - text: "\"We tried ChatGPT but nobody uses it consistently. We need our team to actually adopt AI in their daily work.\""
+    - generic [ref=e122]:
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]: Learn it yourself
+          - heading "Hands-on AI training" [level=2] [ref=e126]
+          - paragraph [ref=e127]: From complete beginner to advanced developer — live, practical sessions you can join.
+        - link "View all training →" [ref=e128] [cursor=pointer]:
+          - /url: /training.html
+      - generic [ref=e129]:
+        - article [ref=e130]:
+          - generic [ref=e131]:
+            - time [ref=e132]: June 20, 2026
+            - generic [ref=e133]: Upcoming
+          - generic [ref=e134]: Vibe Coding
+          - heading "Claude Code Vibe Coding for Beginners" [level=3] [ref=e135]:
+            - link "Claude Code Vibe Coding for Beginners" [ref=e136] [cursor=pointer]:
+              - /url: /training/claude-code-vibe-coding.html
+          - paragraph [ref=e137]: Build three complete projects in a single day — a personal website, an installable app, and a full e-commerce platform — without writing code yourself. You brief the AI; the AI builds. This is vibe coding.
+          - generic [ref=e138]:
+            - generic [ref=e139]: ◆ Online · Live (link sent after registration)
+            - generic [ref=e140]: ◷ Full day · 9:00 AM – 5:00 PM GMT+8
+            - generic [ref=e141]: ● Complete Beginner
+          - link "Register & details →" [ref=e142] [cursor=pointer]:
+            - /url: /training/claude-code-vibe-coding.html
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - time [ref=e145]: June 5, 2026
+            - generic [ref=e146]: Past
+          - generic [ref=e147]: Claude Code 101
+          - heading "Claude Code 101 — Third Edition" [level=3] [ref=e148]:
+            - link "Claude Code 101 — Third Edition" [ref=e149] [cursor=pointer]:
+              - /url: /training/claude-code-101-third-edition.html
+          - paragraph [ref=e150]: Our most advanced cohort yet — a deep, hands-on session turning Claude Code into a true AI developer that understands your architecture, automates routine work, and operates as a member of your team.
+          - generic [ref=e151]:
+            - generic [ref=e152]: ◆ Online · Live via Zoom
+            - generic [ref=e153]: ◷ 4 hours (8:30 PM – 12:30 AM GMT+8)
+            - generic [ref=e154]: ● Intermediate → Advanced
+          - link "View recap →" [ref=e155] [cursor=pointer]:
+            - /url: /training/claude-code-101-third-edition.html
+        - article [ref=e156]:
+          - generic [ref=e157]:
+            - time [ref=e158]: May 4, 2026
+            - generic [ref=e159]: Past
+          - generic [ref=e160]: Claude Code 101
+          - heading "Claude Code 101 — Second Edition" [level=3] [ref=e161]:
+            - link "Claude Code 101 — Second Edition" [ref=e162] [cursor=pointer]:
+              - /url: /training/claude-code-101-second-edition.html
+          - paragraph [ref=e163]: A sold-out cohort of 80 — project managers, software engineers, and solution architects from across Malaysia — learning to work faster and ship higher-quality code by genuinely mastering Claude Code.
+          - generic [ref=e164]:
+            - generic [ref=e165]: ◆ Online · Live via Zoom
+            - generic [ref=e166]: ◷ 4 hours (8:30 PM – 12:30 AM GMT+8)
+            - generic [ref=e167]: ● Intermediate
+          - link "View recap →" [ref=e168] [cursor=pointer]:
+            - /url: /training/claude-code-101-second-edition.html
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e173]: From the blog
+          - heading "Latest Insights" [level=2] [ref=e174]
+        - link "View all →" [ref=e175] [cursor=pointer]:
+          - /url: /blog.html
+      - generic [ref=e176]:
+        - article [ref=e177]:
+          - time [ref=e178]: Jan 28, 2026
+          - heading "Welcome to staticbase" [level=3] [ref=e179]:
+            - link "Welcome to staticbase" [ref=e180] [cursor=pointer]:
+              - /url: /blog/welcome.html
+          - paragraph [ref=e181]: Your first blog post using staticbase with Tailwind CSS and Alpine.js
+          - link "Read More →" [ref=e182] [cursor=pointer]:
+            - /url: /blog/welcome.html
+        - article [ref=e183]:
+          - time [ref=e184]: Jan 27, 2026
+          - heading "Getting Started with Your New Site" [level=3] [ref=e185]:
+            - link "Getting Started with Your New Site" [ref=e186] [cursor=pointer]:
+              - /url: /blog/getting-started.html
+          - paragraph [ref=e187]: Learn how to customize your new staticbase website with Tailwind CSS and Alpine.js
+          - link "Read More →" [ref=e188] [cursor=pointer]:
+            - /url: /blog/getting-started.html
+    - generic [ref=e190]:
+      - generic [ref=e191]: Let's talk
+      - heading "Ready to transform how your business works?" [level=2] [ref=e192]
+      - paragraph [ref=e193]: One free conversation. No technical jargon. Just a real discussion about your goals and how AI can help.
+      - link "Book a Free Consultation →" [ref=e194] [cursor=pointer]:
+        - /url: /contact.html
+  - contentinfo [ref=e195]:
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - link "INTEGRASOLID" [ref=e199] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e201]: INTEGRASOLID
+          - paragraph [ref=e202]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e203]:
+          - heading "Services" [level=4] [ref=e204]
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link "AI Integration" [ref=e207] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e208]:
+              - link "AI Automation" [ref=e209] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e210]:
+              - link "AI Training" [ref=e211] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e212]:
+          - heading "Connect" [level=4] [ref=e213]
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - link "Training" [ref=e216] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e217]:
+              - link "Contact Us" [ref=e218] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e219]:
+              - link "Facebook" [ref=e220] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e221]:
+              - link "integrasolid.com" [ref=e222] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e223]: © 2026 Integra Solid. All rights reserved.

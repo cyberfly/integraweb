@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: INTEGRASOLID
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e11]:
+          - link "Training" [ref=e12] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e13]:
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e15]:
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e17]:
+          - link "Contact" [ref=e18] [cursor=pointer]:
+            - /url: /contact.html
+      - link "Get Started" [ref=e19] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: Let's talk
+      - heading "Start your AI transformation." [level=1] [ref=e24]:
+        - text: Start your AI
+        - text: transformation.
+      - paragraph [ref=e25]: Tell us about your business and we'll show you what AI can do for it. Free, no obligation, no jargon.
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]: Reach us directly
+        - heading "We'd love to hear from you." [level=2] [ref=e31]
+        - paragraph [ref=e32]: Message us on any channel below — we reply within one business day.
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - img [ref=e36]
+            - generic [ref=e38]:
+              - strong [ref=e39]: Email
+              - link "integrasolid@gmail.com" [ref=e40] [cursor=pointer]:
+                - /url: mailto:integrasolid@gmail.com
+          - generic [ref=e41]:
+            - img [ref=e43]
+            - generic [ref=e45]:
+              - strong [ref=e46]: WhatsApp
+              - link "+60 13-390 9415" [ref=e47] [cursor=pointer]:
+                - /url: https://wa.me/60133909415
+          - generic [ref=e48]:
+            - img [ref=e50]
+            - generic [ref=e52]:
+              - strong [ref=e53]: Facebook
+              - link "fb.com/integrasolid" [ref=e54] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+        - generic [ref=e55]:
+          - heading "Free Consultation Includes" [level=4] [ref=e56]
+          - list [ref=e57]:
+            - listitem [ref=e58]: ✓ Review of your current workflows
+            - listitem [ref=e59]: ✓ AI opportunity assessment
+            - listitem [ref=e60]: ✓ Recommended first steps
+            - listitem [ref=e61]: ✓ No obligation, no hard sell
+      - generic [ref=e62]:
+        - generic [ref=e63]: What happens next
+        - heading "No pressure, just a real conversation." [level=2] [ref=e64]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]: Step 1
+            - generic [ref=e68]:
+              - strong [ref=e69]: We review your message
+              - text: We read what you've shared and think about your specific situation before replying.
+          - generic [ref=e70]:
+            - generic [ref=e71]: Step 2
+            - generic [ref=e72]:
+              - strong [ref=e73]: We schedule a free call
+              - text: A 30-minute conversation — no pitch, just questions about your workflows and goals.
+          - generic [ref=e74]:
+            - generic [ref=e75]: Step 3
+            - generic [ref=e76]:
+              - strong [ref=e77]: You get a clear recommendation
+              - text: We tell you exactly where AI can help and what a first project would look like.
+          - generic [ref=e78]:
+            - generic [ref=e79]: Step 4
+            - generic [ref=e80]:
+              - strong [ref=e81]: You decide
+              - text: No obligation. If it's a good fit, great. If not, you still walk away with useful insights.
+  - contentinfo [ref=e82]:
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - link "INTEGRASOLID" [ref=e86] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e88]: INTEGRASOLID
+          - paragraph [ref=e89]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e90]:
+          - heading "Services" [level=4] [ref=e91]
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "AI Integration" [ref=e94] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e95]:
+              - link "AI Automation" [ref=e96] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e97]:
+              - link "AI Training" [ref=e98] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e99]:
+          - heading "Connect" [level=4] [ref=e100]
+          - list [ref=e101]:
+            - listitem [ref=e102]:
+              - link "Training" [ref=e103] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e104]:
+              - link "Contact Us" [ref=e105] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e106]:
+              - link "Facebook" [ref=e107] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e108]:
+              - link "integrasolid.com" [ref=e109] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e110]: © 2026 Integra Solid. All rights reserved.

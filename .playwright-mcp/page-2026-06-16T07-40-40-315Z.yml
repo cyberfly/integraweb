@@ -1,0 +1,241 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: INTEGRASOLID
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e11]:
+          - link "Training" [ref=e12] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e13]:
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e15]:
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e17]:
+          - link "Contact" [ref=e18] [cursor=pointer]:
+            - /url: /contact.html
+      - link "Get Started" [ref=e19] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Claude Code 101 · Second Edition
+        - generic [ref=e25]: Past
+      - heading "Claude Code 101 — Second Edition" [level=1] [ref=e26]
+      - paragraph [ref=e27]:
+        - strong [ref=e28]: Unlock your coding superpower.
+        - text: A sold-out cohort of 80 — project managers, software engineers, and solution architects from across Malaysia — learning to work faster and ship higher-quality code by genuinely mastering Claude Code.
+      - generic [ref=e29]:
+        - generic [ref=e30]: 📅 May 4, 2026
+        - generic [ref=e31]: Online · Live via Zoom
+        - generic [ref=e32]: Intermediate
+        - generic [ref=e33]: English · Notes in Malay
+      - generic [ref=e34]:
+        - link "← All training" [ref=e35] [cursor=pointer]:
+          - /url: /training.html
+        - link "Run this for my team →" [ref=e36] [cursor=pointer]:
+          - /url: /contact.html
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]: Format
+        - strong [ref=e42]: Online · Live via Zoom
+      - generic [ref=e43]:
+        - generic [ref=e44]: Duration
+        - strong [ref=e45]: 4 hours (8:30 PM – 12:30 AM GMT+8)
+      - generic [ref=e46]:
+        - generic [ref=e47]: Level
+        - strong [ref=e48]: Intermediate
+      - generic [ref=e49]:
+        - generic [ref=e50]: Attendance
+        - strong [ref=e51]: 80 professionals
+    - generic [ref=e53]:
+      - generic [ref=e54]: Overview
+      - generic [ref=e55]:
+        - paragraph [ref=e56]: "The premise of the second edition was blunt: a programmer in 2026 who hasn't mastered Claude Code is already falling behind. This cohort set out to fix that."
+        - paragraph [ref=e57]:
+          - strong [ref=e58]: 80 participants
+          - text: "— project managers, software engineers, solution architects, and technology professionals from across Malaysia — spent four hours learning to leverage AI-assisted coding properly: not as a novelty, but as a daily multiplier on speed and quality."
+        - paragraph [ref=e59]:
+          - text: The session went beyond features into real workflows the room could use the next morning — parallel quality reviews with
+          - code [ref=e60]: "`/simplify`"
+          - text: ", vulnerability scanning with"
+          - code [ref=e61]: "`/security-review`"
+          - text: ", safe undo with"
+          - code [ref=e62]: "`/rewind`"
+          - text: ", and hands-free execution with"
+          - code [ref=e63]: "`/voice`"
+          - text: .
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: Outcomes
+        - heading "What you'll walk away with." [level=2] [ref=e69]
+        - paragraph [ref=e70]: Practical, hands-on skills you can use the very next day — not theory.
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]: ✓
+          - generic [ref=e74]: Set up Memory so Claude Code understands your project and maintains continuity
+        - generic [ref=e75]:
+          - generic [ref=e76]: ✓
+          - generic [ref=e77]: Use Plan Mode to research thoroughly before executing any change
+        - generic [ref=e78]:
+          - generic [ref=e79]: ✓
+          - generic [ref=e80]: Connect Claude with external tools like GitHub through MCP
+        - generic [ref=e81]:
+          - generic [ref=e82]: ✓
+          - generic [ref=e83]: Create custom Slash Commands to automate repeatable tasks
+        - generic [ref=e84]:
+          - generic [ref=e85]: ✓
+          - generic [ref=e86]: Teach Claude task-specific methods with Skills, and run parallel agents with Subagents & Worktree
+        - generic [ref=e87]:
+          - generic [ref=e88]: ✓
+          - generic [ref=e89]: Automate linting, testing, and notifications with Hooks, and extend with Plugins
+    - generic [ref=e91]:
+      - generic [ref=e92]: Curriculum
+      - heading "What we covered." [level=2] [ref=e93]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: Module 01
+          - generic [ref=e97]:
+            - strong [ref=e98]: Memory
+            - text: Set up Claude Code to understand your project and maintain continuity across sessions.
+        - generic [ref=e99]:
+          - generic [ref=e100]: Module 02
+          - generic [ref=e101]:
+            - strong [ref=e102]: Plan Mode
+            - text: Use the AI to research before it executes, so changes land right the first time.
+        - generic [ref=e103]:
+          - generic [ref=e104]: Module 03
+          - generic [ref=e105]:
+            - strong [ref=e106]: MCP
+            - text: Connect Claude with external tools like GitHub for complete workflows.
+        - generic [ref=e107]:
+          - generic [ref=e108]: Module 04
+          - generic [ref=e109]:
+            - strong [ref=e110]: Slash Commands
+            - text: Create custom automation commands tailored to how you work.
+        - generic [ref=e111]:
+          - generic [ref=e112]: Module 05
+          - generic [ref=e113]:
+            - strong [ref=e114]: Skills
+            - text: Teach Claude task-specific methods it can apply consistently.
+        - generic [ref=e115]:
+          - generic [ref=e116]: Module 06
+          - generic [ref=e117]:
+            - strong [ref=e118]: Subagents & Worktree
+            - text: Run parallel AI agents working simultaneously on separate branches.
+        - generic [ref=e119]:
+          - generic [ref=e120]: Module 07
+          - generic [ref=e121]:
+            - strong [ref=e122]: Hooks & Plugins
+            - text: Automate linting, testing, and notifications, then install ready-made workflows.
+        - generic [ref=e123]:
+          - generic [ref=e124]: Live
+          - generic [ref=e125]:
+            - strong [ref=e126]: Real-World Workflows
+            - text: /simplify for parallel quality reviews, /security-review for vulnerability scanning, /rewind to undo safely, and /voice for hands-free commands.
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]: Who it's for
+        - heading "Is this you?" [level=2] [ref=e132]
+        - list [ref=e133]:
+          - listitem [ref=e134]: ✓ Programmers and developers who want to be faster and more productive
+          - listitem [ref=e135]: ✓ Project managers and solution architects working alongside engineering teams
+          - listitem [ref=e136]: ✓ Technical professionals who don't want to be left behind in 2026
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - heading "What's included" [level=4] [ref=e139]
+          - list [ref=e140]:
+            - listitem [ref=e141]: ✓ Full session recording
+            - listitem [ref=e142]: ✓ WhatsApp support group
+            - listitem [ref=e143]: ✓ Live interactive Q&A
+            - listitem [ref=e144]: ✓ Real-world workflow demos
+        - generic [ref=e145]:
+          - generic [ref=e146]: Topics covered
+          - generic [ref=e147]:
+            - generic [ref=e148]: Memory
+            - generic [ref=e149]: Plan Mode
+            - generic [ref=e150]: MCP
+            - generic [ref=e151]: Slash Commands
+            - generic [ref=e152]: Skills
+            - generic [ref=e153]: Subagents
+            - generic [ref=e154]: Worktree
+            - generic [ref=e155]: Hooks
+            - generic [ref=e156]: Plugins
+    - generic [ref=e159]:
+      - generic [ref=e160]: IS
+      - generic [ref=e161]:
+        - generic [ref=e162]: Your trainer
+        - heading "Led by Integra Solid" [level=2] [ref=e163]
+        - paragraph [ref=e164]: Hands-on training from a team that integrates and automates AI for real businesses every day. Our sessions are built on live demonstrations and real-world use cases — not slides.
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]: 300+
+            - text: Developers trained
+          - generic [ref=e168]:
+            - generic [ref=e169]: "3"
+            - text: Editions of 101
+          - generic [ref=e170]:
+            - generic [ref=e171]: 100%
+            - text: Hands-on, live
+    - generic [ref=e173]:
+      - generic [ref=e174]: Missed this cohort?
+      - heading "Bring this training to your team." [level=2] [ref=e175]
+      - paragraph [ref=e176]: We run private and upcoming editions of our trainings. Tell us your team's level and we'll tailor a session.
+      - link "Talk to us about training →" [ref=e177] [cursor=pointer]:
+        - /url: /contact.html
+    - navigation "Pagination" [ref=e180]:
+      - link "← Previous Claude Code 101 — First Edition" [ref=e181] [cursor=pointer]:
+        - /url: /training/claude-code-101.html
+        - generic [ref=e182]: ← Previous
+        - generic [ref=e183]: Claude Code 101 — First Edition
+      - link "All training" [ref=e184] [cursor=pointer]:
+        - /url: /training.html
+      - link "Next → Claude Code 101 — Third Edition" [ref=e185] [cursor=pointer]:
+        - /url: /training/claude-code-101-third-edition.html
+        - generic [ref=e186]: Next →
+        - generic [ref=e187]: Claude Code 101 — Third Edition
+  - contentinfo [ref=e188]:
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - link "INTEGRASOLID" [ref=e192] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e194]: INTEGRASOLID
+          - paragraph [ref=e195]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e196]:
+          - heading "Services" [level=4] [ref=e197]
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - link "AI Integration" [ref=e200] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e201]:
+              - link "AI Automation" [ref=e202] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e203]:
+              - link "AI Training" [ref=e204] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e205]:
+          - heading "Connect" [level=4] [ref=e206]
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "Training" [ref=e209] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e210]:
+              - link "Contact Us" [ref=e211] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e212]:
+              - link "Facebook" [ref=e213] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e214]:
+              - link "integrasolid.com" [ref=e215] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e216]: © 2026 Integra Solid. All rights reserved.

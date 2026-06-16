@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: INTEGRASOLID
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e11]:
+          - link "Training" [ref=e12] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e13]:
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e15]:
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e17]:
+          - link "Contact" [ref=e18] [cursor=pointer]:
+            - /url: /contact.html
+      - link "Get Started" [ref=e19] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: Insights & ideas
+      - heading "From the blog." [level=1] [ref=e24]
+      - paragraph [ref=e25]: AI transformation tips, automation playbooks, and practical guides for business owners and teams moving from manual to intelligent.
+    - article [ref=e28]:
+      - link [ref=e29] [cursor=pointer]:
+        - /url: /blog/upskill-dev-team-ai-coding-tools.html
+        - generic [ref=e31]: Integrate · Automate · Accelerate
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: ★ Featured
+          - generic [ref=e35]: 5 min read
+        - 'heading "How to Upskill Your Dev Team on AI Coding Tools: What Works in 2026" [level=2] [ref=e36]':
+          - 'link "How to Upskill Your Dev Team on AI Coding Tools: What Works in 2026" [ref=e37] [cursor=pointer]':
+            - /url: /blog/upskill-dev-team-ai-coding-tools.html
+        - paragraph [ref=e38]: Most dev teams adopting Claude Code or Copilot see weak results — not because the tools are bad, but because the rollout was unstructured. Here's a practical 4-week framework that works.
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]: IS
+            - generic [ref=e42]:
+              - strong [ref=e43]: Integra Solid
+              - text: June 15, 2026
+          - link "Read article →" [ref=e44] [cursor=pointer]:
+            - /url: /blog/upskill-dev-team-ai-coding-tools.html
+    - generic [ref=e46]:
+      - generic [ref=e47]: Stay ahead
+      - heading "Have a process you'd love to automate?" [level=2] [ref=e48]
+      - paragraph [ref=e49]: Tell us where your team loses the most time — we'll show you what AI can take off your plate.
+      - link "Book a free consultation →" [ref=e50] [cursor=pointer]:
+        - /url: /contact.html
+  - contentinfo [ref=e51]:
+    - generic [ref=e52]:
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - link "INTEGRASOLID" [ref=e55] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e57]: INTEGRASOLID
+          - paragraph [ref=e58]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e59]:
+          - heading "Services" [level=4] [ref=e60]
+          - list [ref=e61]:
+            - listitem [ref=e62]:
+              - link "AI Integration" [ref=e63] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e64]:
+              - link "AI Automation" [ref=e65] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e66]:
+              - link "AI Training" [ref=e67] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e68]:
+          - heading "Connect" [level=4] [ref=e69]
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - link "Training" [ref=e72] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e73]:
+              - link "Contact Us" [ref=e74] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e75]:
+              - link "Facebook" [ref=e76] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e77]:
+              - link "integrasolid.com" [ref=e78] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e79]: © 2026 Integra Solid. All rights reserved.

@@ -1,0 +1,177 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: INTEGRASOLID
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e10]:
+          - link "Services" [ref=e11] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e12]:
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e14]:
+          - link "Blog" [ref=e15] [cursor=pointer]:
+            - /url: /blog.html
+      - link "Get Started" [ref=e16] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]: AI Transformation Partner
+        - heading "Integrate AI. Automate Work. Accelerate Growth." [level=1] [ref=e22]:
+          - text: Integrate AI.
+          - text: Automate Work.
+          - text: Accelerate Growth.
+        - paragraph [ref=e23]: We guide businesses from manual, repetitive operations to intelligent, automated workflows — at every stage of the journey.
+        - generic [ref=e24]:
+          - link "Explore Our Services →" [ref=e25] [cursor=pointer]:
+            - /url: /services.html
+          - link "Book a Free Call" [ref=e26] [cursor=pointer]:
+            - /url: /contact.html
+        - paragraph [ref=e27]:
+          - text: ✦
+          - generic [ref=e28]: No technical jargon. Just a real conversation about your business.
+      - generic [ref=e30]:
+        - generic [ref=e36]: You →
+        - generic [ref=e39]:
+          - generic [ref=e40]: automation.yourcompany.com · live
+          - generic [ref=e42]:
+            - text: Email Automation
+            - heading "Follow-up Engine" [level=4] [ref=e43]
+            - paragraph [ref=e44]: 47 follow-ups sent today. CRM synced automatically.
+            - generic [ref=e45]: View Dashboard
+            - generic [ref=e46]: 100% Automated
+    - generic [ref=e48]:
+      - generic [ref=e49]: Business Owners
+      - generic [ref=e50]: ·
+      - generic [ref=e51]: Operations Teams
+      - generic [ref=e52]: ·
+      - generic [ref=e53]: Founders
+      - generic [ref=e54]: ·
+      - generic [ref=e55]: Marketers
+      - generic [ref=e56]: ·
+      - generic [ref=e57]: Anyone drowning in manual work
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: The shift we enable
+        - blockquote [ref=e62]: You don't need to learn AI. You need AI to learn your business.
+        - paragraph [ref=e63]: You stay focused on strategy, customers, and growth. We make sure AI handles everything else.
+      - generic [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]: You
+          - generic [ref=e68]:
+            - strong [ref=e69]: Describe the problem
+            - text: "\"We spend 3 hours every day on manual follow-ups and CRM updates.\""
+        - generic [ref=e70]:
+          - generic [ref=e71]: Integra Solid
+          - generic [ref=e72]:
+            - strong [ref=e73]: Design the solution
+            - text: We map your workflow, choose the right AI tools, and build the automation.
+        - generic [ref=e74]:
+          - generic [ref=e75]: You
+          - generic [ref=e76]:
+            - strong [ref=e77]: Run your business
+            - text: The automations run in the background. You get hours back, every single day.
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]: What we do
+        - heading "Three services. One transformation." [level=2] [ref=e82]
+        - paragraph [ref=e83]: Every business is different. We meet you where you are and take you where you need to go.
+      - generic [ref=e84]:
+        - generic [ref=e85]: "01"
+        - generic [ref=e86]:
+          - generic [ref=e87]: AI Integration
+          - heading "Connect AI to your existing tools" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Your business already runs on a stack of tools — CRMs, communication platforms, data pipelines. We connect AI into those tools so everything works smarter, without disrupting what's already working.
+          - generic [ref=e90]: "Result: AI that fits your workflow, not the other way around"
+        - generic [ref=e91]:
+          - generic [ref=e92]: A typical brief
+          - text: "\"We use HubSpot and Slack. Can AI help us auto-log calls, summarise meetings, and alert the right people?\""
+      - generic [ref=e93]:
+        - generic [ref=e94]: "02"
+        - generic [ref=e95]:
+          - generic [ref=e96]: AI Automation
+          - heading "Automate the work that drains your team" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Repetitive tasks are a silent tax on your business. Every hour spent on manual data entry, routine emails, and copy-paste workflows is an hour not spent on growth. We find those bottlenecks and eliminate them.
+          - generic [ref=e99]: "Result: Hours reclaimed every day, automatically"
+        - generic [ref=e100]:
+          - generic [ref=e101]: A typical brief
+          - text: "\"Our team spends half the day on follow-ups and reporting. We want that to just happen without anyone touching it.\""
+      - generic [ref=e102]:
+        - generic [ref=e103]: "03"
+        - generic [ref=e104]:
+          - generic [ref=e105]: AI Training
+          - heading "Upskill your team to work with AI" [level=3] [ref=e106]
+          - paragraph [ref=e107]: Tools alone don't transform businesses — people do. The most powerful AI investments fail when teams don't know how to use them. We train your team to use AI confidently, in the context of their actual jobs.
+          - generic [ref=e108]: "Result: A team that multiplies its output with AI"
+        - generic [ref=e109]:
+          - generic [ref=e110]: A typical brief
+          - text: "\"We tried ChatGPT but nobody uses it consistently. We need our team to actually adopt AI in their daily work.\""
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: From the blog
+          - heading "Latest Insights" [level=2] [ref=e116]
+        - link "View all →" [ref=e117] [cursor=pointer]:
+          - /url: /blog.html
+      - generic [ref=e118]:
+        - article [ref=e119]:
+          - time [ref=e120]: Jan 28, 2026
+          - heading "Welcome to staticbase" [level=3] [ref=e121]:
+            - link "Welcome to staticbase" [ref=e122] [cursor=pointer]:
+              - /url: /blog/welcome.html
+          - paragraph [ref=e123]: Your first blog post using staticbase with Tailwind CSS and Alpine.js
+          - link "Read More →" [ref=e124] [cursor=pointer]:
+            - /url: /blog/welcome.html
+        - article [ref=e125]:
+          - time [ref=e126]: Jan 27, 2026
+          - heading "Getting Started with Your New Site" [level=3] [ref=e127]:
+            - link "Getting Started with Your New Site" [ref=e128] [cursor=pointer]:
+              - /url: /blog/getting-started.html
+          - paragraph [ref=e129]: Learn how to customize your new staticbase website with Tailwind CSS and Alpine.js
+          - link "Read More →" [ref=e130] [cursor=pointer]:
+            - /url: /blog/getting-started.html
+    - generic [ref=e132]:
+      - generic [ref=e133]: Let's talk
+      - heading "Ready to transform how your business works?" [level=2] [ref=e134]
+      - paragraph [ref=e135]: One free conversation. No technical jargon. Just a real discussion about your goals and how AI can help.
+      - link "Book a Free Consultation →" [ref=e136] [cursor=pointer]:
+        - /url: /contact.html
+  - contentinfo [ref=e137]:
+    - generic [ref=e138]:
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - link "INTEGRASOLID" [ref=e141] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e143]: INTEGRASOLID
+          - paragraph [ref=e144]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e145]:
+          - heading "Services" [level=4] [ref=e146]
+          - list [ref=e147]:
+            - listitem [ref=e148]:
+              - link "AI Integration" [ref=e149] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e150]:
+              - link "AI Automation" [ref=e151] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e152]:
+              - link "AI Training" [ref=e153] [cursor=pointer]:
+                - /url: /services.html
+        - generic [ref=e154]:
+          - heading "Connect" [level=4] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Contact Us" [ref=e158] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e159]:
+              - link "Facebook" [ref=e160] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e161]:
+              - link "integrasolid.com" [ref=e162] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e163]: © 2026 Integra Solid. All rights reserved.

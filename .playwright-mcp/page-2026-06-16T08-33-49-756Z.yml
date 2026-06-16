@@ -1,0 +1,161 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: INTEGRASOLID
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e11]:
+          - link "Training" [ref=e12] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e13]:
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e15]:
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e17]:
+          - link "Contact" [ref=e18] [cursor=pointer]:
+            - /url: /contact.html
+      - link "Get Started" [ref=e19] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: Hands-on AI training
+      - heading "Training that actually sticks." [level=1] [ref=e24]
+      - paragraph [ref=e25]: Live, practical, hands-on sessions that take real people — from complete beginners to working developers — and turn AI from a buzzword into a daily skill. Here's everything we've run, and what's coming next.
+      - generic [ref=e26]:
+        - link "See what's next →" [ref=e27] [cursor=pointer]:
+          - /url: "#upcoming"
+        - link "Request private training" [ref=e28] [cursor=pointer]:
+          - /url: /contact.html
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: 300+
+        - generic [ref=e33]: trained
+      - generic [ref=e34]:
+        - generic [ref=e35]: "4"
+        - generic [ref=e36]: cohorts
+      - generic [ref=e37]:
+        - generic [ref=e38]: 100%
+        - generic [ref=e39]: hands-on
+      - generic [ref=e40]:
+        - generic [ref=e41]: All levels
+        - generic [ref=e42]: beginner to advanced
+      - generic [ref=e43]:
+        - generic [ref=e44]: Live
+        - generic [ref=e45]: + recorded
+    - generic [ref=e47]:
+      - generic [ref=e48]: Next up
+      - heading "Upcoming training" [level=2] [ref=e49]
+      - paragraph [ref=e50]: Reserve your seat before it fills up.
+      - article [ref=e52]:
+        - generic [ref=e53]:
+          - time [ref=e54]: June 20, 2026
+          - generic [ref=e55]: Upcoming
+        - generic [ref=e56]: Vibe Coding
+        - heading "Claude Code Vibe Coding for Beginners" [level=3] [ref=e57]:
+          - link "Claude Code Vibe Coding for Beginners" [ref=e58] [cursor=pointer]:
+            - /url: /training/claude-code-vibe-coding.html
+        - paragraph [ref=e59]: Build three complete projects in a single day — a personal website, an installable app, and a full e-commerce platform — without writing code yourself. You brief the AI; the AI builds. This is vibe coding.
+        - generic [ref=e60]:
+          - generic [ref=e61]: ◆ Online · Live (link sent after registration)
+          - generic [ref=e62]: ◷ Full day · 9:00 AM – 5:00 PM GMT+8
+          - generic [ref=e63]: ● Complete Beginner
+        - link "Register & details →" [ref=e64] [cursor=pointer]:
+          - /url: /training/claude-code-vibe-coding.html
+    - generic [ref=e66]:
+      - generic [ref=e67]: Our track record
+      - heading "Past training we've delivered" [level=2] [ref=e68]
+      - paragraph [ref=e69]: Real cohorts, real developers, real outcomes — here's what we've run so far.
+      - generic [ref=e70]:
+        - article [ref=e71]:
+          - generic [ref=e72]:
+            - time [ref=e73]: June 5, 2026
+            - generic [ref=e74]: Past
+          - generic [ref=e75]: Claude Code 101
+          - heading "Claude Code 101 — Third Edition" [level=3] [ref=e76]:
+            - link "Claude Code 101 — Third Edition" [ref=e77] [cursor=pointer]:
+              - /url: /training/claude-code-101-third-edition.html
+          - paragraph [ref=e78]: Our most advanced cohort yet — a deep, hands-on session turning Claude Code into a true AI developer that understands your architecture, automates routine work, and operates as a member of your team.
+          - generic [ref=e79]:
+            - generic [ref=e80]: ◆ Online · Live via Zoom
+            - generic [ref=e81]: ◷ 4 hours (8:30 PM – 12:30 AM GMT+8)
+            - generic [ref=e82]: ● Intermediate → Advanced
+          - link "View recap →" [ref=e83] [cursor=pointer]:
+            - /url: /training/claude-code-101-third-edition.html
+        - article [ref=e84]:
+          - generic [ref=e85]:
+            - time [ref=e86]: May 4, 2026
+            - generic [ref=e87]: Past
+          - generic [ref=e88]: Claude Code 101
+          - heading "Claude Code 101 — Second Edition" [level=3] [ref=e89]:
+            - link "Claude Code 101 — Second Edition" [ref=e90] [cursor=pointer]:
+              - /url: /training/claude-code-101-second-edition.html
+          - paragraph [ref=e91]: A sold-out cohort of 80 — project managers, software engineers, and solution architects from across Malaysia — learning to work faster and ship higher-quality code by genuinely mastering Claude Code.
+          - generic [ref=e92]:
+            - generic [ref=e93]: ◆ Online · Live via Zoom
+            - generic [ref=e94]: ◷ 4 hours (8:30 PM – 12:30 AM GMT+8)
+            - generic [ref=e95]: ● Intermediate
+          - link "View recap →" [ref=e96] [cursor=pointer]:
+            - /url: /training/claude-code-101-second-edition.html
+        - article [ref=e97]:
+          - generic [ref=e98]:
+            - time [ref=e99]: April 2, 2026
+            - generic [ref=e100]: Past
+          - generic [ref=e101]: Claude Code 101
+          - heading "Claude Code 101 — First Edition" [level=3] [ref=e102]:
+            - link "Claude Code 101 — First Edition" [ref=e103] [cursor=pointer]:
+              - /url: /training/claude-code-101.html
+          - paragraph [ref=e104]: The one that started it all. A sold-out inaugural cohort of 157 — programmers from across Malaysia — introduced to Claude Code as a genuine coding superpower, working faster and shipping higher-quality code with AI.
+          - generic [ref=e105]:
+            - generic [ref=e106]: ◆ Online · Live via Zoom
+            - generic [ref=e107]: ◷ 2.5 hours (9:00 PM – 11:30 PM GMT+8)
+            - generic [ref=e108]: ● Beginner → Intermediate
+          - link "View recap →" [ref=e109] [cursor=pointer]:
+            - /url: /training/claude-code-101.html
+    - generic [ref=e111]:
+      - generic [ref=e112]: Training for your team
+      - heading "Want this for your whole team?" [level=2] [ref=e113]
+      - paragraph [ref=e114]: We design private, role-specific AI training tailored to your tools and your team's level. Tell us where you are and we'll build the session.
+      - link "Request private training →" [ref=e115] [cursor=pointer]:
+        - /url: /contact.html
+  - contentinfo [ref=e116]:
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - link "INTEGRASOLID" [ref=e120] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e122]: INTEGRASOLID
+          - paragraph [ref=e123]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e124]:
+          - heading "Services" [level=4] [ref=e125]
+          - list [ref=e126]:
+            - listitem [ref=e127]:
+              - link "AI Integration" [ref=e128] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e129]:
+              - link "AI Automation" [ref=e130] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e131]:
+              - link "AI Training" [ref=e132] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e133]:
+          - heading "Connect" [level=4] [ref=e134]
+          - list [ref=e135]:
+            - listitem [ref=e136]:
+              - link "Training" [ref=e137] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e138]:
+              - link "Contact Us" [ref=e139] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e140]:
+              - link "Facebook" [ref=e141] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+      - paragraph [ref=e142]: © 2026 Integra Solid. All rights reserved.

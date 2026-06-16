@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: INTEGRASOLID
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e11]:
+          - link "Training" [ref=e12] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e13]:
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e15]:
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e17]:
+          - link "Contact" [ref=e18] [cursor=pointer]:
+            - /url: /contact.html
+      - link "Get Started" [ref=e19] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e20]:
+    - generic [ref=e22]:
+      - generic [ref=e23]: What we offer
+      - heading "Three services. One transformation." [level=1] [ref=e24]
+      - paragraph [ref=e25]: From connecting AI to your existing tools, to automating your workflows, to training your team — we cover every stage of your AI journey.
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: "01"
+        - generic [ref=e30]:
+          - generic [ref=e31]: AI Integration
+          - heading "Connect AI to your existing tools" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Most businesses already use dozens of tools — CRMs, communication platforms, project management apps. AI works best when it's woven into those tools, not bolted on separately.
+          - paragraph [ref=e34]: We design and implement AI integrations that fit your existing stack, so your team gets the benefits of AI without disrupting the workflows they already know.
+          - generic [ref=e35]: Your tools, working smarter
+        - generic [ref=e36]:
+          - generic [ref=e37]: Typical scope includes
+          - text: CRM and sales tool AI add-ons · Communication platform integrations · Data pipeline automation · AI tool selection and vendor evaluation · Custom workflow design
+      - generic [ref=e38]:
+        - generic [ref=e39]: "02"
+        - generic [ref=e40]:
+          - generic [ref=e41]: AI Automation
+          - heading "Automate the work that drains your team" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Repetitive tasks are a silent tax on your business. Every hour your team spends on manual data entry, routine follow-ups, and status reporting is an hour not spent on strategy, relationships, and real growth.
+          - paragraph [ref=e44]: We map your workflows, identify the highest-value automation opportunities, and build AI-powered systems that handle recurring tasks in the background — automatically.
+          - generic [ref=e45]: Hours reclaimed, every single day
+        - generic [ref=e46]:
+          - generic [ref=e47]: Typical scope includes
+          - text: Workflow mapping and bottleneck analysis · Document and data processing · Email and follow-up automation · Report generation · AI agent deployment for recurring operations
+      - generic [ref=e48]:
+        - generic [ref=e49]: "03"
+        - generic [ref=e50]:
+          - generic [ref=e51]: AI Training
+          - heading "Build genuine AI fluency in your team" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Tools alone don't transform businesses — people do. The most powerful AI investments fail when teams don't know how to use them confidently. We change that.
+          - paragraph [ref=e54]: Our training programmes meet your team where they are — from complete beginners to power users — and build real AI skills that translate directly into their day-to-day work.
+          - generic [ref=e55]: A team that actually uses AI, consistently
+          - paragraph [ref=e56]:
+            - link "See our past & upcoming training →" [ref=e57] [cursor=pointer]:
+              - /url: /training.html
+        - generic [ref=e58]:
+          - generic [ref=e59]: Typical scope includes
+          - text: Practical AI literacy workshops · Role-specific tool training · Prompt engineering for your workflows · Job-specific AI playbooks · Ongoing coaching and Q&A support
+    - generic [ref=e61]:
+      - generic [ref=e62]: Why Integra Solid
+      - heading "What makes us different." [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e66]: ◎
+          - heading "Business-first, not tech-first" [level=3] [ref=e67]
+          - paragraph [ref=e68]: We start with your business goals, not AI capabilities. Every recommendation is anchored to real outcomes — not what's trending.
+        - generic [ref=e69]:
+          - generic [ref=e70]: ✦
+          - heading "No jargon, ever" [level=3] [ref=e71]
+          - paragraph [ref=e72]: We explain everything in plain language. You'll always understand what we're building and why — no black boxes.
+        - generic [ref=e73]:
+          - generic [ref=e74]: ↗
+          - heading "End-to-end guidance" [level=3] [ref=e75]
+          - paragraph [ref=e76]: From strategy to implementation to adoption — we stay with you through the full transformation, not just the first step.
+        - generic [ref=e77]:
+          - generic [ref=e78]: ✓
+          - heading "Fits your existing stack" [level=3] [ref=e79]
+          - paragraph [ref=e80]: We work with the tools you already use. No ripping-and-replacing, no forcing you into new platforms you don't need.
+        - generic [ref=e81]:
+          - generic [ref=e82]: ◷
+          - heading "Fast time to value" [level=3] [ref=e83]
+          - paragraph [ref=e84]: We prioritise quick wins alongside long-term transformation. You'll see results early — not just at the end of a long project.
+        - generic [ref=e85]:
+          - generic [ref=e86]: ★
+          - heading "Builds internal capability" [level=3] [ref=e87]
+          - paragraph [ref=e88]: We don't create dependency. Our goal is to make your team capable and confident — so the transformation lasts.
+    - generic [ref=e90]:
+      - generic [ref=e91]: Common questions
+      - heading "Before we get started." [level=2] [ref=e92]
+      - generic [ref=e93]:
+        - group [ref=e94]:
+          - generic "Do I need technical knowledge to work with you? +" [ref=e95] [cursor=pointer]:
+            - text: Do I need technical knowledge to work with you?
+            - generic [ref=e96]: +
+        - group [ref=e97]:
+          - generic "How long does an engagement typically take? +" [ref=e98] [cursor=pointer]:
+            - text: How long does an engagement typically take?
+            - generic [ref=e99]: +
+        - group [ref=e100]:
+          - generic "Will AI automation replace our employees? +" [ref=e101] [cursor=pointer]:
+            - text: Will AI automation replace our employees?
+            - generic [ref=e102]: +
+        - group [ref=e103]:
+          - generic "Which tools and platforms do you work with? +" [ref=e104] [cursor=pointer]:
+            - text: Which tools and platforms do you work with?
+            - generic [ref=e105]: +
+        - group [ref=e106]:
+          - generic "What does the free consultation cover? +" [ref=e107] [cursor=pointer]:
+            - text: What does the free consultation cover?
+            - generic [ref=e108]: +
+    - generic [ref=e110]:
+      - generic [ref=e111]: Not sure where to start?
+      - heading "Let's figure it out together." [level=2] [ref=e112]
+      - paragraph [ref=e113]: Every business is different. Book a free call and we'll show you exactly where AI can make the biggest difference for yours.
+      - link "Book a Free Consultation →" [ref=e114] [cursor=pointer]:
+        - /url: /contact.html
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "INTEGRASOLID" [ref=e119] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e121]: INTEGRASOLID
+          - paragraph [ref=e122]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e123]:
+          - heading "Services" [level=4] [ref=e124]
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - link "AI Integration" [ref=e127] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e128]:
+              - link "AI Automation" [ref=e129] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e130]:
+              - link "AI Training" [ref=e131] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e132]:
+          - heading "Connect" [level=4] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Training" [ref=e136] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e137]:
+              - link "Contact Us" [ref=e138] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e139]:
+              - link "Facebook" [ref=e140] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e141]:
+              - link "integrasolid.com" [ref=e142] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e143]: © 2026 Integra Solid. All rights reserved.

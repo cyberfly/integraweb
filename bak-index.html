@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vibe Coding 101 — Bina 3 Projek Sebenar Dalam Sehari Tanpa Coding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16151F;
+    --ink-soft:#46435C;
+    --paper:#FCFBF7;
+    --paper-2:#F3EFE6;
+    --coral:#FF5A3C;
+    --coral-deep:#E03A1E;
+    --coral-tint:#FFE6DF;
+    --indigo:#4733FF;
+    --indigo-tint:#E7E3FF;
+    --mint:#0DA873;
+    --mint-tint:#D6F3E7;
+    --line:#E4DFD4;
+    --display:'Bricolage Grotesque', sans-serif;
+    --body:'Plus Jakarta Sans', sans-serif;
+    --mono:'JetBrains Mono', monospace;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--body);
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  section{position:relative}
+
+  /* ---------- type ---------- */
+  h1,h2,h3{font-family:var(--display);font-weight:700;line-height:1.04;letter-spacing:-0.02em}
+  h2{font-size:clamp(2rem,4.5vw,3.1rem);margin-bottom:18px}
+  h3{font-size:1.3rem;line-height:1.15}
+  .eyebrow{
+    font-family:var(--mono);font-size:.74rem;font-weight:500;
+    text-transform:uppercase;letter-spacing:.18em;color:var(--coral-deep);
+    display:inline-block;margin-bottom:14px;
+  }
+  .lede{font-size:clamp(1.05rem,1.8vw,1.25rem);color:var(--ink-soft);max-width:46ch}
+
+  /* ---------- buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    font-family:var(--body);font-weight:700;font-size:1rem;
+    padding:15px 28px;border-radius:999px;border:none;cursor:pointer;
+    text-decoration:none;transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .btn-primary{background:var(--coral);color:#fff;box-shadow:0 8px 22px -8px rgba(255,90,60,.7)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 30px -10px rgba(255,90,60,.85);background:var(--coral-deep)}
+  .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+  .btn-ghost:hover{background:var(--ink);color:var(--paper)}
+
+  /* ---------- nav ---------- */
+  nav{
+    position:sticky;top:0;z-index:50;
+    background:rgba(252,251,247,.82);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{font-family:var(--display);font-weight:800;font-size:1.15rem;letter-spacing:-.02em;display:flex;align-items:center;gap:9px}
+  .brand .dot{width:11px;height:11px;border-radius:3px;background:var(--coral);transform:rotate(45deg)}
+  .nav-cta{font-size:.92rem;padding:10px 20px}
+  .nav-links{display:none;gap:28px;font-size:.92rem;font-weight:600}
+  .nav-links a{color:var(--ink-soft);text-decoration:none}
+  .nav-links a:hover{color:var(--ink)}
+  @media(min-width:860px){.nav-links{display:flex}}
+
+  /* ---------- hero ---------- */
+  .hero{padding:72px 0 84px;overflow:hidden}
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:48px;align-items:center}
+  @media(min-width:920px){.hero-grid{grid-template-columns:1.05fr .95fr;gap:56px}}
+  .hero h1{font-size:clamp(2.5rem,6.2vw,4.3rem);font-weight:800;margin-bottom:22px}
+  .hero h1 .hl{color:var(--coral);position:relative;white-space:nowrap}
+  .hero .lede{margin-bottom:30px;max-width:50ch}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+  .hero-note{font-size:.86rem;color:var(--ink-soft);margin-top:20px;display:flex;align-items:center;gap:8px}
+  .hero-note b{color:var(--ink)}
+
+  /* prompt demo (signature) */
+  .demo{
+    background:var(--ink);border-radius:20px;padding:20px;
+    box-shadow:0 30px 60px -28px rgba(22,21,31,.55);
+    transform:rotate(-1.2deg);
+  }
+  .demo-bar{display:flex;gap:7px;margin-bottom:16px}
+  .demo-bar span{width:11px;height:11px;border-radius:50%}
+  .demo-bar span:nth-child(1){background:#FF5F57}
+  .demo-bar span:nth-child(2){background:#FEBC2E}
+  .demo-bar span:nth-child(3){background:#28C840}
+  .bubble{
+    font-family:var(--mono);font-size:.85rem;line-height:1.5;color:#EDEAF6;
+    background:#26243A;border-radius:13px;padding:13px 15px;margin-bottom:13px;
+    border-left:3px solid var(--coral);min-height:74px;
+  }
+  .bubble .you{color:#8C86B0;display:block;margin-bottom:5px;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase}
+  .cursor{display:inline-block;width:8px;height:1.05em;background:var(--coral);vertical-align:-2px;margin-left:2px;animation:blink 1s steps(2) infinite}
+  @keyframes blink{0%,50%{opacity:1}50.01%,100%{opacity:0}}
+  .result{background:var(--paper);border-radius:13px;overflow:hidden}
+  .result-head{display:flex;align-items:center;gap:7px;padding:9px 13px;background:#fff;border-bottom:1px solid var(--line);font-size:.74rem;color:var(--ink-soft);font-family:var(--mono)}
+  .result-head .lock{width:11px;height:11px;border-radius:3px;background:var(--mint)}
+  .mini-site{padding:18px 16px}
+  .mini-site .ms-eyebrow{font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--coral-deep)}
+  .mini-site h4{font-family:var(--display);font-size:1.25rem;font-weight:700;margin:4px 0 8px}
+  .mini-site p{font-size:.78rem;color:var(--ink-soft);margin-bottom:12px}
+  .mini-btn{display:inline-block;background:var(--ink);color:#fff;font-size:.72rem;font-weight:700;padding:8px 14px;border-radius:999px}
+  .mini-pill{display:inline-block;background:var(--coral-tint);color:var(--coral-deep);font-size:.72rem;font-weight:700;padding:8px 14px;border-radius:999px;margin-left:7px}
+
+  /* ---------- qualifier strip ---------- */
+  .strip{background:var(--ink);color:var(--paper);padding:18px 0}
+  .strip-inner{display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:center;align-items:center;font-family:var(--mono);font-size:.82rem;letter-spacing:.04em}
+  .strip-inner span{opacity:.55}
+  .strip-inner b{color:var(--coral);font-weight:500}
+
+  /* ---------- generic section padding ---------- */
+  .pad{padding:88px 0}
+  .pad-tight{padding:64px 0}
+
+  /* ---------- reframe ---------- */
+  .reframe{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .reframe-grid{display:grid;grid-template-columns:1fr;gap:40px;align-items:center}
+  @media(min-width:880px){.reframe-grid{grid-template-columns:1fr 1fr;gap:64px}}
+  .reframe blockquote{
+    font-family:var(--display);font-weight:600;font-size:clamp(1.5rem,3vw,2.1rem);
+    line-height:1.2;letter-spacing:-.02em;
+  }
+  .reframe blockquote .accent{color:var(--coral)}
+  .roles{display:flex;flex-direction:column;gap:14px;margin-top:8px}
+  .role{display:flex;gap:14px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+  .role .tag{font-family:var(--mono);font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:5px 9px;border-radius:7px;white-space:nowrap;margin-top:2px}
+  .role.you .tag{background:var(--coral-tint);color:var(--coral-deep)}
+  .role.claude .tag{background:var(--indigo-tint);color:var(--indigo)}
+  .role strong{display:block;font-size:1.02rem;margin-bottom:2px}
+  .role span{font-size:.92rem;color:var(--ink-soft)}
+
+  /* ---------- builds ---------- */
+  .builds-head{max-width:60ch;margin-bottom:48px}
+  .build{
+    display:grid;grid-template-columns:1fr;gap:26px;
+    padding:36px 0;border-top:1px solid var(--line);align-items:center;
+  }
+  @media(min-width:880px){.build{grid-template-columns:54px 1fr 1fr;gap:36px;padding:46px 0}}
+  .build-num{font-family:var(--display);font-weight:800;font-size:2.4rem;color:var(--coral);line-height:1}
+  .build-body h3{margin-bottom:8px;font-size:1.45rem}
+  .build-time{font-family:var(--mono);font-size:.74rem;color:var(--ink-soft);letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px;display:block}
+  .build-body p{color:var(--ink-soft);font-size:.98rem}
+  .build-body .win{display:inline-flex;align-items:center;gap:8px;margin-top:14px;font-size:.88rem;font-weight:700;color:var(--mint)}
+  .build-body .win::before{content:"";width:18px;height:18px;border-radius:50%;background:var(--mint-tint);background-image:radial-gradient(var(--mint) 38%,transparent 40%)}
+  .prompt-card{
+    font-family:var(--mono);font-size:.84rem;line-height:1.55;
+    background:var(--ink);color:#EDEAF6;border-radius:14px;padding:16px 18px;
+    border-left:3px solid var(--coral);
+  }
+  .prompt-card .you{color:#8C86B0;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:7px}
+  .build:nth-child(3) .build-num{color:var(--indigo)}
+  .build:nth-child(3) .prompt-card{border-left-color:var(--indigo)}
+  .build:nth-child(4) .build-num{color:var(--mint)}
+  .build:nth-child(4) .prompt-card{border-left-color:var(--mint)}
+
+  /* ---------- jadual ---------- */
+  .schedule{background:var(--ink);color:var(--paper)}
+  .schedule .eyebrow{color:var(--coral)}
+  .schedule h2{color:#fff}
+  .timeline{margin-top:44px;border-left:2px solid #34324A;padding-left:0}
+  .slot{display:grid;grid-template-columns:1fr;gap:4px 24px;padding:0 0 28px 26px;position:relative}
+  @media(min-width:680px){.slot{grid-template-columns:128px 1fr}}
+  .slot::before{content:"";position:absolute;left:-7px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--coral);border:3px solid var(--ink)}
+  .slot.lunch::before{background:#34324A}
+  .slot .time{font-family:var(--mono);font-size:.82rem;color:var(--coral);font-weight:500;padding-top:1px}
+  .slot.lunch .time{color:#8C86B0}
+  .slot .what strong{font-family:var(--display);font-size:1.08rem;font-weight:700;display:block;margin-bottom:2px}
+  .slot .what span{font-size:.9rem;color:#A9A4C2}
+  .slot.lunch .what strong{color:#A9A4C2}
+
+  /* ---------- why ---------- */
+  .why-grid{display:grid;grid-template-columns:1fr;gap:20px;margin-top:44px}
+  @media(min-width:680px){.why-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:980px){.why-grid{grid-template-columns:repeat(3,1fr)}}
+  .why-card{border:1px solid var(--line);border-radius:16px;padding:26px;background:var(--paper);transition:transform .15s ease}
+  .why-card:hover{transform:translateY(-3px)}
+  .why-card .ico{width:40px;height:40px;border-radius:11px;background:var(--coral-tint);display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;color:var(--coral-deep);margin-bottom:16px;font-size:1.2rem}
+  .why-card:nth-child(2) .ico{background:var(--indigo-tint);color:var(--indigo)}
+  .why-card:nth-child(3) .ico{background:var(--mint-tint);color:var(--mint)}
+  .why-card:nth-child(4) .ico{background:var(--coral-tint);color:var(--coral-deep)}
+  .why-card:nth-child(5) .ico{background:var(--indigo-tint);color:var(--indigo)}
+  .why-card:nth-child(6) .ico{background:var(--mint-tint);color:var(--mint)}
+  .why-card h3{font-size:1.1rem;margin-bottom:7px}
+  .why-card p{font-size:.92rem;color:var(--ink-soft)}
+
+  /* ---------- prereqs ---------- */
+  .prep{background:var(--coral-tint)}
+  .prep-grid{display:grid;grid-template-columns:1fr;gap:36px;align-items:center}
+  @media(min-width:880px){.prep-grid{grid-template-columns:.9fr 1.1fr;gap:56px}}
+  .prep h2{color:var(--ink)}
+  .checklist{display:flex;flex-direction:column;gap:12px;margin-top:6px}
+  .check{display:flex;gap:14px;align-items:flex-start;background:var(--paper);border-radius:13px;padding:15px 17px}
+  .check .mk{width:24px;height:24px;border-radius:7px;background:var(--coral);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.85rem;flex-shrink:0;margin-top:1px}
+  .check strong{display:block;font-size:1rem}
+  .check span{font-size:.9rem;color:var(--ink-soft)}
+  .warn{margin-top:22px;background:var(--ink);color:var(--paper);border-radius:14px;padding:18px 20px;font-size:.94rem;display:flex;gap:13px;align-items:flex-start}
+  .warn .bang{font-family:var(--display);font-weight:800;color:var(--coral);font-size:1.3rem;line-height:1}
+  .warn b{color:#fff}
+
+  /* ---------- trainer ---------- */
+  .trainer-card{background:var(--ink);color:var(--paper);border-radius:24px;padding:clamp(28px,5vw,52px);display:grid;grid-template-columns:1fr;gap:28px;align-items:center}
+  @media(min-width:780px){.trainer-card{grid-template-columns:auto 1fr;gap:40px}}
+  .trainer-badge{width:120px;height:120px;border-radius:20px;background:linear-gradient(135deg,var(--coral),var(--indigo));display:flex;align-items:center;justify-content:center;font-family:var(--display);font-weight:800;color:#fff;font-size:2.6rem;flex-shrink:0}
+  .trainer-card .eyebrow{color:var(--coral)}
+  .trainer-card h2{color:#fff;font-size:clamp(1.6rem,3vw,2.2rem)}
+  .trainer-card p{color:#C4C0D8;margin-top:12px;font-size:1rem;max-width:58ch}
+  .trainer-stats{display:flex;flex-wrap:wrap;gap:28px;margin-top:22px}
+  .trainer-stats div span{font-family:var(--display);font-weight:800;font-size:1.7rem;color:#fff;display:block}
+  .trainer-stats div small{font-size:.8rem;color:#8C86B0;font-family:var(--mono);letter-spacing:.04em}
+
+  /* ---------- faq ---------- */
+  .faq-list{margin-top:40px;max-width:760px}
+  details{border-bottom:1px solid var(--line);padding:20px 0}
+  details summary{font-family:var(--display);font-weight:700;font-size:1.12rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  details summary::-webkit-details-marker{display:none}
+  details summary .plus{font-family:var(--body);font-weight:700;color:var(--coral);font-size:1.5rem;line-height:1;transition:transform .2s ease;flex-shrink:0}
+  details[open] summary .plus{transform:rotate(45deg)}
+  details p{color:var(--ink-soft);margin-top:12px;font-size:.98rem;max-width:64ch}
+
+  /* ---------- final cta ---------- */
+  .final{background:var(--coral);color:#fff;text-align:center}
+  .final h2{color:#fff;font-size:clamp(2.2rem,5vw,3.4rem);max-width:18ch;margin:0 auto 18px}
+  .final p{font-size:1.1rem;max-width:48ch;margin:0 auto 30px;opacity:.95}
+  .final .btn-primary{background:#fff;color:var(--coral-deep);box-shadow:0 12px 30px -10px rgba(0,0,0,.4)}
+  .final .btn-primary:hover{background:var(--ink);color:#fff}
+  .final .meta{margin-top:24px;font-family:var(--mono);font-size:.84rem;letter-spacing:.05em;opacity:.9}
+
+  /* ---------- footer ---------- */
+  footer{background:var(--ink);color:#8C86B0;padding:40px 0;font-size:.88rem}
+  .foot-inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;align-items:center}
+  .foot-inner .brand{color:#fff}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease, transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    .reveal{opacity:1;transform:none;transition:none}
+    .cursor{animation:none}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <div class="brand"><span class="dot"></span> Integra Solid</div>
+    <div class="nav-links">
+      <a href="#bina">Apa Kita Bina</a>
+      <a href="#jadual">Jadual</a>
+      <a href="#sedia">Persediaan</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#daftar" class="btn btn-primary nav-cta">Daftar Sekarang</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="reveal in">
+      <span class="eyebrow">Kelas Online · 1 Hari · 9 pagi – 5 petang</span>
+      <h1>Bina <span class="hl">3 projek sebenar</span> dalam sehari. Tanpa tahu coding.</h1>
+      <p class="lede">Vibe Coding 101 dengan Claude Code. Kita cuma cakap apa yang kita nak dalam Bahasa Melayu, Claude yang binakan. Balik kelas, kita ada website, app yang boleh install dalam telefon, dan web app yang dah online.</p>
+      <div class="hero-actions">
+        <a href="#daftar" class="btn btn-primary">Daftar Sekarang →</a>
+        <a href="#bina" class="btn btn-ghost">Tengok Apa Kita Bina</a>
+      </div>
+      <div class="hero-note">✦ <span><b>Tak pernah sentuh code?</b> Itu memang sasaran kelas ni.</span></div>
+    </div>
+
+    <div class="reveal in">
+      <div class="demo">
+        <div class="demo-bar"><span></span><span></span><span></span></div>
+        <div class="bubble">
+          <span class="you">Kita taip ↓</span>
+          <span id="typed"></span><span class="cursor" id="cursor"></span>
+        </div>
+        <div class="result">
+          <div class="result-head"><span class="lock"></span> kedaikopi-saya.com · live</div>
+          <div class="mini-site">
+            <span class="ms-eyebrow">Kedai Kopi</span>
+            <h4>Seduhan Pagi</h4>
+            <p>Kopi single-origin, dibancuh segar setiap hari di Petaling Jaya.</p>
+            <span class="mini-btn">WhatsApp Kami</span><span class="mini-pill">Lihat Menu</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALIFIER STRIP -->
+<section class="strip">
+  <div class="wrap strip-inner">
+    <b>Pemilik bisnes</b><span>·</span><b>Marketer</b><span>·</span><b>Founder</b><span>·</span><b>Pelajar</b><span>·</span><b>Sesiapa yang rasa "coding bukan untuk saya"</b>
+  </div>
+</section>
+
+<!-- REFRAME -->
+<section class="reframe pad">
+  <div class="wrap reframe-grid">
+    <div class="reveal">
+      <span class="eyebrow">Idea besar hari ni</span>
+      <blockquote>Kita <span class="accent">bukan belajar coding.</span> Kita belajar cara brief seorang "intern" yang pandai coding.</blockquote>
+      <p class="lede" style="margin-top:20px">Kita jadi boss. Claude buat kerja. Kita tengok hasil, bukan baca code. Semudah itu sepanjang hari.</p>
+    </div>
+    <div class="reveal">
+      <div class="roles">
+        <div class="role you">
+          <span class="tag">Kita</span>
+          <div><strong>Beri arahan</strong><span>"Buatkan laman web untuk kedai saya, ada menu dan butang WhatsApp."</span></div>
+        </div>
+        <div class="role claude">
+          <span class="tag">Claude</span>
+          <div><strong>Bina semuanya</strong><span>Tulis code, susun reka bentuk, siapkan halaman. Kita cuma semak hasil.</span></div>
+        </div>
+        <div class="role you">
+          <span class="tag">Kita</span>
+          <div><strong>Perbaiki</strong><span>"Tukar warna jadi coklat. Besarkan tajuk." Macam brief designer.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BUILDS -->
+<section class="pad" id="bina">
+  <div class="wrap">
+    <div class="builds-head reveal">
+      <span class="eyebrow">Apa kita bawa balik</span>
+      <h2>Tiga projek. Setiap satu naik satu tingkat.</h2>
+      <p class="lede" style="max-width:58ch">Kita mula dari kosong dan tamat dengan aplikasi yang betul-betul online. Setiap projek dibina atas yang sebelumnya, jadi kita rasa diri makin power sepanjang hari.</p>
+    </div>
+
+    <div class="build reveal">
+      <div class="build-num">01</div>
+      <div class="build-body">
+        <span class="build-time">9:00 – 10:00 pagi · Jam pertama</span>
+        <h3>Website sendiri</h3>
+        <p>Satu laman web yang cantik dan boleh share link. Mungkin profil diri, portfolio, atau muka depan bisnes kita. Inilah kemenangan pertama, dalam masa kurang sejam.</p>
+        <span class="win">Hasil: link website yang boleh hantar pada sesiapa</span>
+      </div>
+      <div class="prompt-card">
+        <span class="you">Kita cakap</span>
+        "Buatkan laman web profil untuk kedai kopi saya. Warna coklat, ada menu, gambar, dan butang WhatsApp."
+      </div>
+    </div>
+
+    <div class="build reveal">
+      <div class="build-num">02</div>
+      <div class="build-body">
+        <span class="build-time">10:00 – 11:00 pagi · Jam kedua</span>
+        <h3>Jadikan ia app (PWA)</h3>
+        <p>Kita upgrade website tadi jadi aplikasi yang boleh "install" terus dalam telefon, lengkap dengan ikon di skrin utama dan boleh buka tanpa browser. Inilah rahsia "app" tanpa perlu App Store.</p>
+        <span class="win">Hasil: app yang boleh install dalam telefon sendiri</span>
+      </div>
+      <div class="prompt-card">
+        <span class="you">Kita cakap</span>
+        "Jadikan laman web ni boleh install dalam telefon macam app, ada ikon dan boleh buka offline."
+      </div>
+    </div>
+
+    <div class="build reveal">
+      <div class="build-num">03</div>
+      <div class="build-body">
+        <span class="build-time">11:00 pagi – 5:00 petang · Projek utama</span>
+        <h3>Web app + deploy online</h3>
+        <p>Sesi paling besar. Kita bina aplikasi yang ada fungsi sebenar, contoh tracker, borang tempahan, atau tool kecil untuk kerja kita, kemudian deploy ia online supaya sesiapa di dunia boleh buka. Kita juga belajar "butang panik" bila sesuatu tak jadi.</p>
+        <span class="win">Hasil: web app hidup, online, dengan link sendiri</span>
+      </div>
+      <div class="prompt-card">
+        <span class="you">Kita cakap</span>
+        "Tambah borang tempahan yang simpan nama dan tarikh. Lepas tu deploy online bagi semua orang boleh guna."
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JADUAL -->
+<section class="schedule pad" id="jadual">
+  <div class="wrap">
+    <span class="eyebrow">Jadual penuh</span>
+    <h2>Satu hari, dari kosong ke online</h2>
+    <div class="timeline">
+      <div class="slot reveal">
+        <div class="time">9:00 – 9:20</div>
+        <div class="what"><strong>Selamat datang + mindset "intern"</strong><span>Kita boss, Claude yang coding. Buang rasa takut sebelum mula.</span></div>
+      </div>
+      <div class="slot reveal">
+        <div class="time">9:20 – 10:00</div>
+        <div class="what"><strong>Projek 1: Website sendiri</strong><span>Kemenangan pertama, satu laman web yang boleh share.</span></div>
+      </div>
+      <div class="slot reveal">
+        <div class="time">10:00 – 11:00</div>
+        <div class="what"><strong>Projek 2: Upgrade jadi PWA</strong><span>Jadikan website tadi boleh install dalam telefon.</span></div>
+      </div>
+      <div class="slot reveal">
+        <div class="time">11:00 – 1:00</div>
+        <div class="what"><strong>Projek 3: Mula bina web app</strong><span>Rancang, bina rangka, dan tambah fungsi sebenar.</span></div>
+      </div>
+      <div class="slot lunch reveal">
+        <div class="time">1:00 – 2:00</div>
+        <div class="what"><strong>Rehat &amp; makan tengah hari</strong><span>Recharge sebelum sesi petang.</span></div>
+      </div>
+      <div class="slot reveal">
+        <div class="time">2:00 – 4:00</div>
+        <div class="what"><strong>Siapkan web app</strong><span>Tambah ciri, kemas reka bentuk, dan "butang panik" bila ada masalah.</span></div>
+      </div>
+      <div class="slot reveal">
+        <div class="time">4:00 – 5:00</div>
+        <div class="what"><strong>Deploy, share &amp; soal jawab</strong><span>Naikkan app online, dapat link sendiri, dan rancang langkah seterusnya.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="pad-tight">
+  <div class="wrap">
+    <span class="eyebrow">Kenapa kelas ni lain</span>
+    <h2>Projek sebenar, milik kita sendiri</h2>
+    <div class="why-grid">
+      <div class="why-card reveal"><div class="ico">✦</div><h3>Bukan mainan sandbox</h3><p>Tool vibe coding lain kurung kita dalam browser. Claude Code bina projek betul atas mesin kita sendiri.</p></div>
+      <div class="why-card reveal"><div class="ico">✓</div><h3>Tiada code untuk dihafal</h3><p>Kita arah dalam Bahasa Melayu. Tak perlu ingat satu pun arahan teknikal atau syntax.</p></div>
+      <div class="why-card reveal"><div class="ico">↗</div><h3>Tiga kemenangan jelas</h3><p>Setiap jam siap satu projek. Kita nampak kemajuan sendiri, bukan sekadar teori.</p></div>
+      <div class="why-card reveal"><div class="ico">⚙</div><h3>Belajar "butang panik"</h3><p>Bila sesuatu rosak, kita tahu tiga langkah mudah untuk pulihkan. Tak akan tersangkut.</p></div>
+      <div class="why-card reveal"><div class="ico">◷</div><h3>Online &amp; langsung</h3><p>Ikut dari rumah, skrin dikongsi, dan ada bantuan masa nyata sepanjang hari.</p></div>
+      <div class="why-card reveal"><div class="ico">★</div><h3>Milik kekal kita</h3><p>Semua projek dan link adalah milik kita. Bawa balik, kembangkan, atau guna untuk bisnes.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREREQS -->
+<section class="prep pad" id="sedia">
+  <div class="wrap prep-grid">
+    <div class="reveal">
+      <span class="eyebrow">Sebelum masuk kelas</span>
+      <h2>Apa yang kita perlu sediakan</h2>
+      <p class="lede" style="max-width:42ch">Senang je. Tiada software mahal, tiada pengalaman coding. Cuma tiga benda ni perlu sedia awal supaya kita boleh terus mula tepat jam 9 pagi.</p>
+    </div>
+    <div class="reveal">
+      <div class="checklist">
+        <div class="check"><span class="mk">1</span><div><strong>Laptop &amp; internet</strong><span>Mana-mana laptop yang biasa (Windows atau Mac) dengan sambungan internet yang stabil.</span></div></div>
+        <div class="check"><span class="mk">2</span><div><strong>Langganan Claude — daftar sebelum kelas</strong><span>Setiap peserta wajib subscribe Claude dahulu sebelum kelas bermula. Kami akan hantar panduan ringkas selepas pendaftaran.</span></div></div>
+        <div class="check"><span class="mk">3</span><div><strong>Semangat nak cuba</strong><span>Itu sahaja. Tak perlu tahu apa-apa pasal coding. Kosong pun tak apa.</span></div></div>
+      </div>
+      <div class="warn"><span class="bang">!</span><div><b>Penting:</b> Langganan Claude perlu siap sebelum kelas. Peserta yang belum subscribe tidak dapat ikut sesi praktikal, jadi pastikan ia settle awal ya.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAINER -->
+<section class="pad-tight">
+  <div class="wrap">
+    <div class="trainer-card reveal">
+      <div class="trainer-badge">IS</div>
+      <div>
+        <span class="eyebrow">Pengendali</span>
+        <h2>Integra Solid</h2>
+        <p>Kelas ni dikendalikan oleh pasukan di belakang siri Claude Code 101, yang telah melatih peserta dari pelbagai latar belakang untuk membina dengan AI. Kita bawa pengalaman sebenar melatih bukan-programmer untuk siap projek dalam masa singkat.</p>
+        <div class="trainer-stats">
+          <div><span>101</span><small>siri Claude Code</small></div>
+          <div><span>3</span><small>projek siap sehari</small></div>
+          <div><span>0</span><small>pengalaman coding diperlukan</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="pad-tight" id="faq">
+  <div class="wrap">
+    <span class="eyebrow">Soalan lazim</span>
+    <h2>Sebelum kita daftar</h2>
+    <div class="faq-list">
+      <details><summary>Saya betul-betul tak pernah coding. Boleh ikut tak?<span class="plus">+</span></summary><p>Boleh, malah inilah orang yang kelas ni direka untuk. Kita mula dari kosong dan semua arahan dibuat dalam Bahasa Melayu biasa. Tak ada langkah yang andai kita dah tahu coding.</p></details>
+      <details><summary>Laptop saya biasa-biasa je, cukup ke?<span class="plus">+</span></summary><p>Cukup. Mana-mana laptop Windows atau Mac yang boleh layari internet sudah memadai. Tak perlu laptop gaming atau spec tinggi.</p></details>
+      <details><summary>Apa maksud "subscribe Claude" dan kenapa perlu awal?<span class="plus">+</span></summary><p>Claude Code ialah alat yang kita guna sepanjang kelas, dan ia memerlukan langganan Claude. Kita perlu daftar sebelum kelas supaya tak terganggu masa sesi praktikal. Panduan penuh dihantar selepas pendaftaran.</p></details>
+      <details><summary>Lepas kelas, projek tu jadi milik saya?<span class="plus">+</span></summary><p>Ya, sepenuhnya. Website, PWA, dan web app yang kita bina adalah milik kita. Kita boleh kembangkan, ubah, atau guna untuk bisnes selepas ni.</p></details>
+      <details><summary>Macam mana kalau saya tersangkut masa kelas?<span class="plus">+</span></summary><p>Kelas ni online dan langsung, jadi ada bantuan masa nyata. Kita juga akan belajar tiga "butang panik" mudah untuk pulihkan sendiri bila sesuatu tak jadi.</p></details>
+      <details><summary>Kelas ni online atau bersemuka?<span class="plus">+</span></summary><p>Sepenuhnya online. Kita ikut dari mana sahaja, skrin akan dikongsi, dan kita bina terus pada laptop sendiri sepanjang hari.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final pad" id="daftar">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#fff;opacity:.85">Tempat terhad</span>
+    <h2>Esok kita boleh kata: "App ni saya bina sendiri."</h2>
+    <p>Satu hari sahaja. Tiga projek sebenar. Sifar pengalaman coding diperlukan. Jom daftar dan buktikan pada diri sendiri.</p>
+    <a href="[LINK_DAFTAR]" class="btn btn-primary">Daftar Sekarang →</a>
+    <div class="meta">[TARIKH KELAS] · 9 pagi – 5 petang · Online · [HARGA RM___]</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="brand" style="font-size:1rem"><span class="dot"></span> Integra Solid</div>
+    <div>Vibe Coding 101 dengan Claude Code · © 2026 Integra Solid</div>
+  </div>
+</footer>
+
+<script>
+  // typing signature in hero
+  (function(){
+    var el = document.getElementById('typed');
+    var cursor = document.getElementById('cursor');
+    if(!el) return;
+    var text = '"Buatkan laman web untuk kedai kopi saya. Warna coklat, ada menu dan butang WhatsApp."';
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if(reduce){ el.textContent = text; return; }
+    var i = 0;
+    function tick(){
+      if(i <= text.length){
+        el.textContent = text.slice(0,i);
+        i++;
+        setTimeout(tick, 38);
+      } else {
+        if(cursor) cursor.style.display='none';
+      }
+    }
+    setTimeout(tick, 600);
+  })();
+
+  // scroll reveal
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window)){ els.forEach(function(e){e.classList.add('in')}); return; }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, {threshold:.12});
+    els.forEach(function(e){ if(!e.classList.contains('in')) io.observe(e); });
+  })();
+</script>
+
+</body>
+</html>

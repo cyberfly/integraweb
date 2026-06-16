@@ -1,0 +1,105 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "INTEGRASOLID" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e9]: INTEGRASOLID
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e13]:
+          - link "Services" [ref=e14] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e15]:
+          - link "About" [ref=e16] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e17]:
+          - link "Blog" [ref=e18] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e19]:
+          - link "Get Started" [ref=e20] [cursor=pointer]:
+            - /url: /contact.html
+  - main [ref=e21]:
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Let's Talk
+      - heading "Start Your AI Transformation" [level=1] [ref=e25]:
+        - text: Start Your AI
+        - text: Transformation
+      - paragraph [ref=e26]: Book a free consultation and let's explore what AI can do for your business.
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Send Us a Message" [level=2] [ref=e31]
+        - paragraph [ref=e32]: We'll get back to you within one business day.
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: Your Name
+            - textbox "Your Name" [ref=e36]:
+              - /placeholder: Jane Smith
+          - generic [ref=e37]:
+            - generic [ref=e38]: Email Address
+            - textbox "Email Address" [ref=e39]:
+              - /placeholder: jane@company.com
+          - generic [ref=e40]:
+            - generic [ref=e41]: How can we help?
+            - textbox "How can we help?" [ref=e42]:
+              - /placeholder: Tell us about your business and what you're hoping AI can do for you...
+          - button "Send Message" [ref=e43]
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - heading "What Happens Next?" [level=3] [ref=e47]
+          - paragraph [ref=e48]: After you send your message, we'll review your details and reach out to schedule a free 30-minute consultation — no pressure, no jargon, just a real conversation about your goals.
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - img [ref=e52]
+            - generic [ref=e54]:
+              - paragraph [ref=e55]: Email
+              - link "integrasolid@gmail.com" [ref=e56] [cursor=pointer]:
+                - /url: mailto:integrasolid@gmail.com
+          - generic [ref=e57]:
+            - img [ref=e59]
+            - generic [ref=e61]:
+              - paragraph [ref=e62]: Facebook
+              - link "fb.com/integrasolid" [ref=e63] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: "Free Consultation Includes:"
+          - list [ref=e66]:
+            - listitem [ref=e67]: ✓ Review of your current workflows
+            - listitem [ref=e68]: ✓ AI opportunity assessment
+            - listitem [ref=e69]: ✓ Recommended first steps
+            - listitem [ref=e70]: ✓ No obligation, no hard sell
+  - contentinfo [ref=e71]:
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e79]: INTEGRASOLID
+          - paragraph [ref=e80]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e81]:
+          - heading "Services" [level=4] [ref=e82]
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - link "AI Integration" [ref=e85] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e86]:
+              - link "AI Automation" [ref=e87] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e88]:
+              - link "AI Training" [ref=e89] [cursor=pointer]:
+                - /url: /services.html
+        - generic [ref=e90]:
+          - heading "Connect" [level=4] [ref=e91]
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Contact Us" [ref=e94] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e95]:
+              - link "Facebook" [ref=e96] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e97]:
+              - link "integrasolid.com" [ref=e98] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e100]: © 2026 Integra Solid. All rights reserved.

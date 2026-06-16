@@ -1,0 +1,160 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: INTEGRASOLID
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Home" [ref=e8] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e11]:
+          - link "Training" [ref=e12] [cursor=pointer]:
+            - /url: /training.html
+        - listitem [ref=e13]:
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e15]:
+          - link "Blog" [ref=e16] [cursor=pointer]:
+            - /url: /blog.html
+        - listitem [ref=e17]:
+          - link "Contact" [ref=e18] [cursor=pointer]:
+            - /url: /contact.html
+      - link "Get Started" [ref=e19] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e20]:
+    - article [ref=e21]:
+      - generic [ref=e23]:
+        - link "← Blog" [ref=e24] [cursor=pointer]:
+          - /url: /blog.html
+        - generic [ref=e25]: Team Enablement
+        - 'heading "How to Upskill Your Dev Team on AI Coding Tools: What Works in 2026" [level=1] [ref=e26]'
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: IS
+            - generic [ref=e30]: Integra Solid
+          - generic [ref=e31]: ·
+          - time [ref=e32]: June 15, 2026
+          - generic [ref=e33]: ·
+          - generic [ref=e34]: 5 min read
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: Every engineering manager is under pressure to adopt AI coding tools. The mandate comes from leadership. The tools ship. The rollout happens. And six weeks later, adoption is at 30%, the loudest skeptic is louder, and you're wondering what went wrong.
+          - paragraph [ref=e38]: This isn't a hypothetical. It's the pattern I see across teams that roll out Claude Code, GitHub Copilot, or Codex without a structured onboarding approach. The tools work. The process usually doesn't.
+          - paragraph [ref=e39]: Here's what actually works — based on what I've seen training developer teams across Southeast Asia.
+          - heading "Why Most Rollouts Underdeliver" [level=2] [ref=e40]
+          - paragraph [ref=e41]: "The gap between teams seeing 40–50% productivity gains and teams calling AI coding tools \"overhyped\" almost always comes down to one thing: how they onboarded."
+          - paragraph [ref=e42]: "Teams that underdeliver do three things consistently: they treat the tool like autocomplete, they judge results in week one, and they let individuals figure it out on their own without a shared workflow."
+          - paragraph [ref=e43]: The result is inconsistent adoption, no shared standards, and a slow fade-out as people default back to their old habits.
+          - heading "What Actually Moves the Needle" [level=2] [ref=e44]
+          - heading "1. Build a CLAUDE.md — or equivalent context file — before you train anyone" [level=3] [ref=e45]
+          - paragraph [ref=e46]: This is the highest-leverage action a team can take before running a rollout session.
+          - paragraph [ref=e47]: AI coding tools like Claude Code use context to produce relevant output. Without context, they're guessing — and their guesses show. A CLAUDE.md file that explains your codebase, your conventions, your architecture decisions, and what "good code" looks like in your project makes the output quality jump immediately.
+          - paragraph [ref=e48]: "Before you train your team, spend a few hours building this file. Document:"
+          - list [ref=e49]:
+            - listitem [ref=e50]: The tech stack and why key decisions were made
+            - listitem [ref=e51]: Naming conventions and formatting standards
+            - listitem [ref=e52]: How the project is structured and what lives where
+            - listitem [ref=e53]: Common tasks and the preferred way to approach them
+          - paragraph [ref=e54]: Then teach developers to maintain it as the codebase evolves. Teams that skip this step spend weeks wondering why Claude keeps making the same mistakes.
+          - heading "2. Start with task design, not prompt writing" [level=3] [ref=e55]
+          - paragraph [ref=e56]: Most developer upskilling programs focus on prompt writing. That's the wrong starting point.
+          - paragraph [ref=e57]: "The real skill is task design: how you break down a unit of work into something well-defined enough for an AI coding tool to execute reliably."
+          - paragraph [ref=e58]: Vague input produces vague output. "Fix this bug" produces a very different result than "here's the failing test, here's the function, here's what I've already ruled out, here's the constraint I'm working within." The second version isn't a better prompt — it's a better task definition. Developers who learn to write those first see compounding results.
+          - paragraph [ref=e59]: In training sessions, I run an exercise where developers take a real task from their backlog and rewrite it as a Claude Code briefing. The rewrites are almost always better work instructions regardless of AI — and the Claude output improves 2–3x.
+          - heading "3. Build a review habit alongside the generation habit" [level=3] [ref=e60]
+          - paragraph [ref=e61]: The biggest risk in AI coding adoption isn't hallucinated code — it's rubber-stamped code. When developers start trusting output they haven't read, quality drops and regressions sneak in.
+          - paragraph [ref=e62]: "Build the review habit in parallel with the generation habit:"
+          - list [ref=e63]:
+            - listitem [ref=e64]: Read Claude's explanation of what it did and why, not just the code itself
+            - listitem [ref=e65]: Run tests before committing, every time
+            - listitem [ref=e66]: Flag outputs that are technically correct but don't match the codebase's patterns
+          - paragraph [ref=e67]: This sounds obvious. In practice, when deadlines are tight and the code looks right, the review gets skipped. Setting a team norm early prevents this from becoming the default.
+          - heading "4. Run a structured team session before individuals go solo" [level=3] [ref=e68]
+          - paragraph [ref=e69]: The most common mistake in tool rollouts is letting people figure it out on their own. Senior developers iterate fast and skip steps, then teach their shortcuts to junior developers. The team ends up with ten different workflows and no shared standards.
+          - paragraph [ref=e70]: "A structured 2-hour team session before individual adoption solves this. Cover:"
+          - list [ref=e71]:
+            - listitem [ref=e72]: What the tool does well and where it breaks down
+            - listitem [ref=e73]: The CLAUDE.md setup and why it matters
+            - listitem [ref=e74]: Task design principles with worked examples from your own codebase
+            - listitem [ref=e75]: The review workflow
+            - listitem [ref=e76]: How to handle the tool's mistakes confidently, without blaming the tool or yourself
+          - paragraph [ref=e77]: Teams that do this session first see faster adoption and more consistent results. Teams that skip it see more variance — and more dropoff.
+          - heading "5. Measure at 30 days, not 7" [level=3] [ref=e78]
+          - paragraph [ref=e79]: AI coding tools have a learning curve. The first week is disorienting. Developers are rewriting their mental model of how they work. Asking for ROI data at day 7 is like asking a new hire to justify themselves before they've finished onboarding.
+          - paragraph [ref=e80]: "Metrics worth tracking at 30 days:"
+          - list [ref=e81]:
+            - listitem [ref=e82]: PR cycle time — do code reviews close faster?
+            - listitem [ref=e83]: "Time on specific task types: test writing, boilerplate, refactoring"
+            - listitem [ref=e84]: Developer-reported time on high-value versus low-value work
+          - paragraph [ref=e85]: At 30 days, teams with proper onboarding typically report meaningful gains in at least one of these. At 90 days, the gains are usually undeniable.
+          - heading "A Practical 4-Week Rollout Framework" [level=2] [ref=e86]
+          - paragraph [ref=e87]: "If you're about to roll out an AI coding tool to your team, here's a sequence that works:"
+          - paragraph [ref=e88]:
+            - strong [ref=e89]: Week 1 — Foundation.
+            - text: Build CLAUDE.md together as a team. Pick 3–4 common task types to standardize workflows for. Run the structured onboarding session.
+          - paragraph [ref=e90]:
+            - strong [ref=e91]: Week 2 — Guided practice.
+            - text: "Each developer uses the tool on one real task per day with a defined workflow. Finish the week with a 30-minute team check-in: what worked, what broke, what's still unclear."
+          - paragraph [ref=e92]:
+            - strong [ref=e93]: Week 3 — Solo application.
+            - text: "Developers apply the workflow independently. The check-in shifts to catching bad patterns: rubber-stamped code, skipped reviews, scope creep in task definitions."
+          - paragraph [ref=e94]:
+            - strong [ref=e95]: Week 4 — Measurement.
+            - text: Pull the 30-day metrics. Identify remaining friction. Decide which workflows to document and standardize permanently.
+          - paragraph [ref=e96]: This isn't a long program. It's four weeks of deliberate practice. Teams that do it this way rarely look back.
+          - heading "What This Means for Engineering Leaders" [level=2] [ref=e97]
+          - paragraph [ref=e98]: The pressure to "adopt AI" is real. The temptation to drop a tool into a Slack channel and call it rolled out is understandable.
+          - paragraph [ref=e99]: "But the ROI difference between a structured rollout and an unstructured one is significant — in adoption rates and in actual productivity outcomes. The teams seeing AI coding tools transform their delivery velocity all have one thing in common: they treated adoption as an onboarding problem, not a tool problem."
+          - paragraph [ref=e100]: If you're an engineering manager or L&D lead planning an AI coding tools rollout for your team, this framework is the starting point. The specific tool matters less than the habit of working with it deliberately.
+        - link "← Back to all articles" [ref=e101] [cursor=pointer]:
+          - /url: /blog.html
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: Ready to act on this?
+          - heading "Let's put AI to work in your business." [level=2] [ref=e107]
+          - paragraph [ref=e108]: Book a free consultation and we'll map the highest-impact ways to integrate, automate, and accelerate — tailored to your team.
+        - generic [ref=e109]:
+          - link "Book a free consultation →" [ref=e110] [cursor=pointer]:
+            - /url: /contact.html
+          - link "Explore our services" [ref=e111] [cursor=pointer]:
+            - /url: /services.html
+  - contentinfo [ref=e112]:
+    - generic [ref=e113]:
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - link "INTEGRASOLID" [ref=e116] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e118]: INTEGRASOLID
+          - paragraph [ref=e119]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e120]:
+          - heading "Services" [level=4] [ref=e121]
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - link "AI Integration" [ref=e124] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e125]:
+              - link "AI Automation" [ref=e126] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e127]:
+              - link "AI Training" [ref=e128] [cursor=pointer]:
+                - /url: /training.html
+        - generic [ref=e129]:
+          - heading "Connect" [level=4] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Training" [ref=e133] [cursor=pointer]:
+                - /url: /training.html
+            - listitem [ref=e134]:
+              - link "Contact Us" [ref=e135] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e136]:
+              - link "Facebook" [ref=e137] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e138]:
+              - link "integrasolid.com" [ref=e139] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e140]: © 2026 Integra Solid. All rights reserved.

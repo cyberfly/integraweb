@@ -1,0 +1,148 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "INTEGRASOLID" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: INTEGRASOLID
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Home" [ref=e9] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e10]:
+          - link "Services" [ref=e11] [cursor=pointer]:
+            - /url: /services.html
+        - listitem [ref=e12]:
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about.html
+        - listitem [ref=e14]:
+          - link "Blog" [ref=e15] [cursor=pointer]:
+            - /url: /blog.html
+      - link "Get Started" [ref=e16] [cursor=pointer]:
+        - /url: /contact.html
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - paragraph [ref=e20]: AI Transformation Partner
+      - heading "Integrate AI. Automate Work. Accelerate Growth." [level=1] [ref=e21]:
+        - text: Integrate AI.
+        - text: Automate Work.
+        - text: Accelerate Growth.
+      - paragraph [ref=e22]: From Manual to Intelligent. From Busy to Better.
+      - generic [ref=e23]:
+        - link "Explore Our Services" [ref=e24] [cursor=pointer]:
+          - /url: /services.html
+        - link "Book a Free Consultation" [ref=e25] [cursor=pointer]:
+          - /url: /contact.html
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "The Transformation We Drive" [level=2] [ref=e29]
+        - paragraph [ref=e30]: We guide businesses from where they are — to where they need to be.
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - heading "From Manual" [level=3] [ref=e33]
+          - list [ref=e34]:
+            - listitem [ref=e35]:
+              - generic [ref=e36]: ✗
+              - generic [ref=e37]: Repetitive Tasks
+            - listitem [ref=e38]:
+              - generic [ref=e39]: ✗
+              - generic [ref=e40]: Time Consuming
+            - listitem [ref=e41]:
+              - generic [ref=e42]: ✗
+              - generic [ref=e43]: Human Dependent
+            - listitem [ref=e44]:
+              - generic [ref=e45]: ✗
+              - generic [ref=e46]: Limited Insights
+        - generic [ref=e47]:
+          - heading "To Intelligent" [level=3] [ref=e48]
+          - list [ref=e49]:
+            - listitem [ref=e50]:
+              - generic [ref=e51]: ✓
+              - generic [ref=e52]: Automated Workflows
+            - listitem [ref=e53]:
+              - generic [ref=e54]: ✓
+              - generic [ref=e55]: Time Savings
+            - listitem [ref=e56]:
+              - generic [ref=e57]: ✓
+              - generic [ref=e58]: AI-Powered Decisions
+            - listitem [ref=e59]:
+              - generic [ref=e60]: ✓
+              - generic [ref=e61]: Scalable Growth
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - heading "Our Core Services" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Three ways we help your business move faster and smarter.
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - img [ref=e70]
+          - heading "AI Integration" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Connect AI tools seamlessly into your existing systems and workflows — no disruption, just enhancement.
+        - generic [ref=e74]:
+          - img [ref=e76]
+          - heading "AI Automation" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Automate repetitive, time-consuming workflows so your team can focus on the work that truly matters.
+        - generic [ref=e80]:
+          - img [ref=e82]
+          - heading "AI Training" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Upskill your team to work confidently and effectively with AI — turning adoption into a competitive advantage.
+      - link "Learn More About Our Services" [ref=e87] [cursor=pointer]:
+        - /url: /services.html
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - heading "Latest Insights" [level=2] [ref=e91]
+        - link "View all →" [ref=e92] [cursor=pointer]:
+          - /url: /blog.html
+      - generic [ref=e93]:
+        - article [ref=e94]:
+          - time [ref=e95]: Jan 28, 2026
+          - heading "Welcome to staticbase" [level=3] [ref=e96]:
+            - link "Welcome to staticbase" [ref=e97] [cursor=pointer]:
+              - /url: /blog/welcome.html
+          - paragraph [ref=e98]: Your first blog post using staticbase with Tailwind CSS and Alpine.js
+          - link "Read More →" [ref=e99] [cursor=pointer]:
+            - /url: /blog/welcome.html
+        - article [ref=e100]:
+          - time [ref=e101]: Jan 27, 2026
+          - heading "Getting Started with Your New Site" [level=3] [ref=e102]:
+            - link "Getting Started with Your New Site" [ref=e103] [cursor=pointer]:
+              - /url: /blog/getting-started.html
+          - paragraph [ref=e104]: Learn how to customize your new staticbase website with Tailwind CSS and Alpine.js
+          - link "Read More →" [ref=e105] [cursor=pointer]:
+            - /url: /blog/getting-started.html
+    - generic [ref=e107]:
+      - heading "Ready to Transform Your Business?" [level=2] [ref=e108]
+      - paragraph [ref=e109]: Let's talk about how AI can work for you. No technical jargon — just a conversation about your goals.
+      - link "Book a Free Consultation" [ref=e110] [cursor=pointer]:
+        - /url: /contact.html
+  - contentinfo [ref=e111]:
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - link "INTEGRASOLID" [ref=e115] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e117]: INTEGRASOLID
+          - paragraph [ref=e118]: Integrate AI. Automate Work. Accelerate Growth.
+        - generic [ref=e119]:
+          - heading "Services" [level=4] [ref=e120]
+          - list [ref=e121]:
+            - listitem [ref=e122]:
+              - link "AI Integration" [ref=e123] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e124]:
+              - link "AI Automation" [ref=e125] [cursor=pointer]:
+                - /url: /services.html
+            - listitem [ref=e126]:
+              - link "AI Training" [ref=e127] [cursor=pointer]:
+                - /url: /services.html
+        - generic [ref=e128]:
+          - heading "Connect" [level=4] [ref=e129]
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - link "Contact Us" [ref=e132] [cursor=pointer]:
+                - /url: /contact.html
+            - listitem [ref=e133]:
+              - link "Facebook" [ref=e134] [cursor=pointer]:
+                - /url: https://fb.com/integrasolid
+            - listitem [ref=e135]:
+              - link "integrasolid.com" [ref=e136] [cursor=pointer]:
+                - /url: https://integrasolid.com
+      - paragraph [ref=e137]: © 2026 Integra Solid. All rights reserved.

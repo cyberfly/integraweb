@@ -1,0 +1,28 @@
+<div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
+<article class="post">
+  <header class="post-hero">
+    <div class="wrap" style="max-width:760px">
+      <a href="/blog.html" class="post-hero-back">← Blog</a>
+      <span class="eyebrow"><%= category %></span>
+      <h1><%= title %></h1>
+      <div class="post-meta">
+        <span class="pm-author">
+          <span class="pm-badge">IS</span>
+          <span>Integra Solid</span>
+        </span>
+        <span class="pm-dot" aria-hidden="true">·</span>
+        <time datetime="<%= isoDate %>"><%= date %></time>
+        <span class="pm-dot" aria-hidden="true">·</span>
+        <span><%= readTime %></span>
+      </div>
+    </div>
+  </header>
+  <div class="wrap" style="max-width:740px">
+    <div class="post-body">
+      <%- content %>
+    </div>
+    <%- postNav %>
+  </div>
+  <%- postCta %>
+  <%- relatedPosts %>
+</article>
