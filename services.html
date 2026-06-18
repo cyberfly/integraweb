@@ -2,59 +2,15 @@
 <section class="page-hero">
   <div class="wrap" style="max-width:760px">
     <span class="eyebrow">What we offer</span>
-    <h1>Three services. One transformation.</h1>
-    <p class="lede">From connecting AI to your existing tools, to automating your workflows, to training your team — we cover every stage of your AI journey.</p>
+    <h1>Four services. One transformation.</h1>
+    <p class="lede">From connecting AI to your existing tools, to automating your workflows, to building custom software, to training your team — we cover every stage of your AI journey.</p>
   </div>
 </section>
 
 <!-- Services (builds) -->
 <section class="pad">
   <div class="wrap">
-    <div class="build reveal">
-      <div class="build-num">01</div>
-      <div class="build-body">
-        <span class="build-time">AI Integration</span>
-        <h3>Connect AI to your existing tools</h3>
-        <p>Most businesses already use dozens of tools — CRMs, communication platforms, project management apps. AI works best when it's woven into those tools, not bolted on separately.</p>
-        <p style="margin-top:12px;color:var(--ink-soft);font-size:.98rem">We design and implement AI integrations that fit your existing stack, so your team gets the benefits of AI without disrupting the workflows they already know.</p>
-        <span class="win">Your tools, working smarter</span>
-      </div>
-      <div class="prompt-card">
-        <span class="label">Typical scope includes</span>
-        CRM and sales tool AI add-ons · Communication platform integrations · Data pipeline automation · AI tool selection and vendor evaluation · Custom workflow design
-      </div>
-    </div>
-
-    <div class="build reveal">
-      <div class="build-num">02</div>
-      <div class="build-body">
-        <span class="build-time">AI Automation</span>
-        <h3>Automate the work that drains your team</h3>
-        <p>Repetitive tasks are a silent tax on your business. Every hour your team spends on manual data entry, routine follow-ups, and status reporting is an hour not spent on strategy, relationships, and real growth.</p>
-        <p style="margin-top:12px;color:var(--ink-soft);font-size:.98rem">We map your workflows, identify the highest-value automation opportunities, and build AI-powered systems that handle recurring tasks in the background — automatically.</p>
-        <span class="win">Hours reclaimed, every single day</span>
-      </div>
-      <div class="prompt-card">
-        <span class="label">Typical scope includes</span>
-        Workflow mapping and bottleneck analysis · Document and data processing · Email and follow-up automation · Report generation · AI agent deployment for recurring operations
-      </div>
-    </div>
-
-    <div class="build reveal">
-      <div class="build-num">03</div>
-      <div class="build-body">
-        <span class="build-time">AI Training</span>
-        <h3>Build genuine AI fluency in your team</h3>
-        <p>Tools alone don't transform businesses — people do. The most powerful AI investments fail when teams don't know how to use them confidently. We change that.</p>
-        <p style="margin-top:12px;color:var(--ink-soft);font-size:.98rem">Our training programmes meet your team where they are — from complete beginners to power users — and build real AI skills that translate directly into their day-to-day work.</p>
-        <span class="win">A team that actually uses AI, consistently</span>
-        <p style="margin-top:16px"><a href="/training.html" class="read-more" style="font-weight:700;color:var(--brand);text-decoration:none">See our past &amp; upcoming training →</a></p>
-      </div>
-      <div class="prompt-card">
-        <span class="label">Typical scope includes</span>
-        Practical AI literacy workshops · Role-specific tool training · Prompt engineering for your workflows · Job-specific AI playbooks · Ongoing coaching and Q&A support
-      </div>
-    </div>
+    <%- serviceCards %>
   </div>
 </section>
 
@@ -100,9 +56,11 @@
 
 <!-- FAQ -->
 <section class="pad-tight">
-  <div class="wrap">
-    <span class="eyebrow reveal">Common questions</span>
-    <h2 class="reveal">Before we get started.</h2>
+  <div class="wrap faq-split">
+    <div class="faq-intro reveal">
+      <span class="eyebrow">Common questions</span>
+      <h2>Before we get started.</h2>
+    </div>
     <div class="faq-list">
       <details>
         <summary>Do I need technical knowledge to work with you?<span class="plus">+</span></summary>

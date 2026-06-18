@@ -12,6 +12,8 @@ import {
   generateTrainingDetail,
   generateUpcomingBanner,
   generateTrainingHighlight,
+  generateServicesOverview,
+  generateServiceDetail,
 } from "./lib/templates.js";
 
 const __dirname = resolve();
@@ -29,6 +31,14 @@ const trainings = getContentFromDirectory(trainingDir, {
   sortBy: "date",
   order: "desc",
 });
+
+const servicesDir = resolve(__dirname, "content/services");
+const services = getContentFromDirectory(servicesDir, {
+  sortBy: "order",
+  order: "asc",
+});
+// Services with a dedicated detail page (those without a `url` override).
+const serviceDetailItems = services.filter((s) => !s.frontmatter.url);
 
 const blogListTemplate = readFileSync(
   resolve(__dirname, "templates/blog-list.html"),
@@ -90,7 +100,7 @@ const pages = [
       title: "Services — Integra Solid",
       description: "AI Integration, AI Automation, and AI Training — three core services to transform your business from manual to intelligent.",
       activePage: "services",
-      content: servicesContent,
+      content: generateServicesOverview(services, servicesContent),
     },
   },
   {
@@ -123,6 +133,17 @@ const pages = [
       content: generateTrainingListPage(),
     },
   },
+  ...serviceDetailItems.map((item) => ({
+    name: `service-${item.slug}`,
+    filename: `services/${item.slug}.html`,
+    entry: "/src/main.js",
+    data: {
+      title: `${item.frontmatter.title} — Integra Solid`,
+      description: item.frontmatter.summary,
+      activePage: "services",
+      content: generateServiceDetail(item, services),
+    },
+  })),
   ...trainings.map((item) => ({
     name: `training-${item.slug}`,
     filename: `training/${item.slug}.html`,
@@ -149,6 +170,10 @@ const pages = [
 
 const rewrites = [
   { from: /^\/$/, to: "/index.html" },
+  ...serviceDetailItems.map((item) => ({
+    from: new RegExp(`^/services/${item.slug}(\.html)?$`),
+    to: `/services/${item.slug}.html`,
+  })),
   ...blogPosts.map((post) => ({
     from: new RegExp(`^/blog/${post.slug}(\.html)?$`),
     to: `/blog/${post.slug}.html`,
