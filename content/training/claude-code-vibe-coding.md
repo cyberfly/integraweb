@@ -5,16 +5,16 @@ series: "Vibe Coding"
 tagline: "From a website to your first web app — no coding required"
 date: 2026-06-20
 dateLabel: "June 20, 2026"
-status: upcoming
-edition: "Beginner Workshop"
-format: "Online · Live (link sent after registration)"
+status: past
+edition: "First Edition"
+format: "Online · Live via Zoom"
 duration: "Full day · 9:00 AM – 5:00 PM GMT+8"
 level: "Complete Beginner"
 language: "English"
-attendees: "Open for registration"
+attendees: "Inaugural cohort · Completed"
 price: "RM 149"
 registerUrl: "https://eventsize.com/event/claude-code-vibe-coding-uob"
-summary: "Build three complete projects in a single day — a personal website, an installable app, and a full e-commerce platform — without writing code yourself. You brief the AI; the AI builds. This is vibe coding."
+summary: "The first Vibe Coding cohort — complete beginners who spent a single Saturday building three complete projects from scratch: a personal website, an installable app, and a full e-commerce platform, without writing code themselves. You brief the AI; the AI builds. This is vibe coding."
 outcomes:
   - "Build a live personal website from a single conversation"
   - "Create an installable Progressive Web App (a working math game) you can put on your phone"
@@ -68,8 +68,8 @@ requirements:
   - "A Claude subscription, active before the class begins"
 ---
 
-You don't need to learn to code to build software anymore. You need to learn how to **brief an AI** that codes for you — and that's exactly what this full-day workshop teaches.
+This was where Vibe Coding began. On June 20, 2026, our **first cohort** of complete beginners proved you don't need to learn to code to build software anymore — you just need to learn how to **brief an AI** that codes for you.
 
-Over the course of one Saturday, you'll build **three complete projects from scratch**: a live personal website, an installable app, and a full e-commerce platform with login, an admin panel, and payments. You won't write the code yourself. Instead, you'll learn agentic briefing — describing what you want clearly enough that Claude builds it for you.
+Over a single Saturday, participants built **three complete projects from scratch**: a live personal website, an installable app, and a full e-commerce platform with login, an admin panel, and payments. Nobody wrote the code themselves. Instead, they learned agentic briefing — describing what they wanted clearly enough that Claude built it for them — and by the end of the day their projects were live on the internet.
 
-This is for people with ideas and no technical background: business owners, marketers, founders, and absolute beginners. By 5 PM, your projects will be live on the internet — and you'll have the prompting skills to keep building long after the workshop ends.
+It was built for people with ideas and no technical background: business owners, marketers, founders, and absolute beginners. The response was strong enough to bring it straight back — tighter and more practical the second time around. For the next live cohort, see the [Second Edition](/training/claude-code-vibe-coding-second-edition.html).
